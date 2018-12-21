@@ -123,6 +123,7 @@
 ## 与我们联系
 
 欢迎您与我们联系，QQ群：857572993
+![](doc/Resource/QQ.jpg)
 
 ## License
 Petrel is [Apache v2.0 licensed](./LICENSE).

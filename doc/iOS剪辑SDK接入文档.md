@@ -75,6 +75,14 @@
 
 ## 2. 使用说明
 
+**目录说明：**
+```
+iOS目录：video_edit_sdk_ios
+剪辑SDK：video_edit_sdk_ios/QHVCEditKit
+特效SDK：video_edit_sdk_ios/QHVCEffectKit
+   Demo：video_edit_sdk_ios/QHVideoCloudEdit
+```
+
 **头文件说明**
 
 剪辑SDK分为两个framework：
