@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "253DEC0D39DB5455659117C604FDDEF0CB5B28AD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8AB35BD5FC6A58E9C721EF7733CCA2A170891BBA" : 9223372036854775807,
+    "A707EECDBF66EF6DA0D32C9F3B30A2137102C4B6" : 9223372036854775807,
+    "253DEC0D39DB5455659117C604FDDEF0CB5B28AD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D239C62A-817D-4419-A149-67FBF0DC648F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8AB35BD5FC6A58E9C721EF7733CCA2A170891BBA" : "video_edit\/",
+    "A707EECDBF66EF6DA0D32C9F3B30A2137102C4B6" : "videoplayer\/",
+    "253DEC0D39DB5455659117C604FDDEF0CB5B28AD" : "app_sdk_ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "QHVCEditKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "QHVCEditKit\/QHVCEditKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.corp.qihoo.net\/livecloud\/app_sdk_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "253DEC0D39DB5455659117C604FDDEF0CB5B28AD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.corp.qihoo.net\/livecloud\/video_edit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8AB35BD5FC6A58E9C721EF7733CCA2A170891BBA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.corp.qihoo.net\/livecloud\/videoplayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A707EECDBF66EF6DA0D32C9F3B30A2137102C4B6"
+    }
+  ]
+}

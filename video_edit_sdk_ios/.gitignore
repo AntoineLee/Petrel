@@ -1,0 +1,8 @@
+*.DS_Store
+build/
+xcuserdata/
+output/
+DerivedData/
+jia/obj/
+jia/libs/
+jia/output/

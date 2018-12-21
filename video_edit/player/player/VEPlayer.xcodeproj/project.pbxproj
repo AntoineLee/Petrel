@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7014875321AD271000E06259 /* mbuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 7014874021AD271000E06259 /* mbuf.c */; };
+		7014875621AD271000E06259 /* ios+ver.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7014874C21AD271000E06259 /* ios+ver.mm */; };
+		7014878421AD273300E06259 /* VEAudioRenderAU.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7014876D21AD273300E06259 /* VEAudioRenderAU.mm */; };
+		7014878521AD273300E06259 /* VEAudioManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7014876E21AD273300E06259 /* VEAudioManager.cpp */; };
+		7014878621AD273300E06259 /* VEAudioProducer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7014877121AD273300E06259 /* VEAudioProducer.cpp */; };
+		7014878721AD273300E06259 /* VEPlayerUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7014877721AD273300E06259 /* VEPlayerUtils.cpp */; };
+		7014878821AD273300E06259 /* VEPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7014877A21AD273300E06259 /* VEPlayer.cpp */; };
+		7014878921AD273300E06259 /* VEAudioRenderSL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7014877D21AD273300E06259 /* VEAudioRenderSL.cpp */; };
+		7014878A21AD273300E06259 /* VEVideoManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7014877F21AD273300E06259 /* VEVideoManager.cpp */; };
+		7014878B21AD273300E06259 /* VEGraphManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7014878021AD273300E06259 /* VEGraphManager.cpp */; };
+		7014878D21AD273300E06259 /* VEMediaSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7014878321AD273300E06259 /* VEMediaSource.cpp */; };
+		705CC9AF21A7E67C003746B3 /* VETestUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705CC9AD21A7E67C003746B3 /* VETestUtils.cpp */; };
+		705CC9B321A7FB3F003746B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705CC9B221A7FB3F003746B3 /* UIKit.framework */; };
+		705CC9B621A7FBB2003746B3 /* VETestPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705CC9B421A7FBB2003746B3 /* VETestPlayer.cpp */; };
+		706B388721AD377C00553588 /* VESoundTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706B388621AD377C00553588 /* VESoundTouch.cpp */; };
+		70B0CB7521A7A42200ECC372 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B0CB7421A7A42200ECC372 /* libz.tbd */; };
+		70D3EB4C21A655B0005D77D7 /* VEPlayerTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 70D3EB4B21A655B0005D77D7 /* VEPlayerTests.mm */; };
+		70D3EB4E21A655B0005D77D7 /* libVEPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9D843E1F667DFE00B0639C /* libVEPlayer.a */; };
+		70D3EB5A21A68F3D005D77D7 /* libvideo_edit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D3EB5921A68F3D005D77D7 /* libvideo_edit.a */; };
+		70D3EB5E21A6A6E3005D77D7 /* VETestAudioProducer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70D3EB5C21A6A6E3005D77D7 /* VETestAudioProducer.cpp */; };
+		70D3EB6121A6AEFC005D77D7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D3EB6021A6AEFC005D77D7 /* AVFoundation.framework */; };
+		70D3EB6321A6B0D6005D77D7 /* vpx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D3EB6221A6B0D5005D77D7 /* vpx.framework */; };
+		70D3EB6521A6DD2B005D77D7 /* VEAudioProducerTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 70D3EB6421A6DD2B005D77D7 /* VEAudioProducerTests.mm */; };
+		70FB09A821B65877003EB6EA /* VEUnitTestConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70FB09A721B65877003EB6EA /* VEUnitTestConfig.cpp */; };
+		70FB09AB21B65A43003EB6EA /* VEUnitTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70FB09A921B65A43003EB6EA /* VEUnitTest.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70D3EB4F21A655B0005D77D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B9D84361F667DFE00B0639C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B9D843D1F667DFE00B0639C;
+			remoteInfo = VEPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B9D843C1F667DFE00B0639C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5B9D843E1F667DFE00B0639C /* libVEPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVEPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9D84641F66996600B0639C /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		7014874021AD271000E06259 /* mbuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mbuf.c; sourceTree = "<group>"; };
+		7014874221AD271000E06259 /* list_head.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list_head.h; sourceTree = "<group>"; };
+		7014874721AD271000E06259 /* lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lock.h; sourceTree = "<group>"; };
+		7014874821AD271000E06259 /* mydef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mydef.h; sourceTree = "<group>"; };
+		7014874921AD271000E06259 /* ios+ver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios+ver.h"; sourceTree = "<group>"; };
+		7014874C21AD271000E06259 /* ios+ver.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "ios+ver.mm"; sourceTree = "<group>"; };
+		7014874D21AD271000E06259 /* mbuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbuf.h; sourceTree = "<group>"; };
+		7014874E21AD271000E06259 /* my_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_buffer.h; sourceTree = "<group>"; };
+		7014875121AD271000E06259 /* mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mem.h; sourceTree = "<group>"; };
+		7014875221AD271000E06259 /* my_errno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_errno.h; sourceTree = "<group>"; };
+		7014876D21AD273300E06259 /* VEAudioRenderAU.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VEAudioRenderAU.mm; sourceTree = "<group>"; };
+		7014876E21AD273300E06259 /* VEAudioManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VEAudioManager.cpp; sourceTree = "<group>"; };
+		7014877021AD273300E06259 /* VEAudioProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEAudioProducer.h; sourceTree = "<group>"; };
+		7014877121AD273300E06259 /* VEAudioProducer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VEAudioProducer.cpp; sourceTree = "<group>"; };
+		7014877221AD273300E06259 /* VEVideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEVideoManager.h; sourceTree = "<group>"; };
+		7014877421AD273300E06259 /* VEPlayerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEPlayerUtils.h; sourceTree = "<group>"; };
+		7014877521AD273300E06259 /* VEGraphManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEGraphManager.h; sourceTree = "<group>"; };
+		7014877621AD273300E06259 /* VEPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEPlayer.h; sourceTree = "<group>"; };
+		7014877721AD273300E06259 /* VEPlayerUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VEPlayerUtils.cpp; sourceTree = "<group>"; };
+		7014877821AD273300E06259 /* VEAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEAudioManager.h; sourceTree = "<group>"; };
+		7014877921AD273300E06259 /* VEMediaSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEMediaSource.h; sourceTree = "<group>"; };
+		7014877A21AD273300E06259 /* VEPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VEPlayer.cpp; sourceTree = "<group>"; };
+		7014877B21AD273300E06259 /* VEPlayerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEPlayerConfig.h; sourceTree = "<group>"; };
+		7014877C21AD273300E06259 /* VEPlayerLogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEPlayerLogs.h; sourceTree = "<group>"; };
+		7014877D21AD273300E06259 /* VEAudioRenderSL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VEAudioRenderSL.cpp; sourceTree = "<group>"; };
+		7014877E21AD273300E06259 /* VEAudioRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEAudioRender.h; sourceTree = "<group>"; };
+		7014877F21AD273300E06259 /* VEVideoManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VEVideoManager.cpp; sourceTree = "<group>"; };
+		7014878021AD273300E06259 /* VEGraphManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VEGraphManager.cpp; sourceTree = "<group>"; };
+		7014878121AD273300E06259 /* FFmpegHdr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFmpegHdr.h; sourceTree = "<group>"; };
+		7014878321AD273300E06259 /* VEMediaSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VEMediaSource.cpp; sourceTree = "<group>"; };
+		705CC9AD21A7E67C003746B3 /* VETestUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VETestUtils.cpp; sourceTree = "<group>"; };
+		705CC9AE21A7E67C003746B3 /* VETestUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VETestUtils.hpp; sourceTree = "<group>"; };
+		705CC9B021A7FB18003746B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		705CC9B221A7FB3F003746B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		705CC9B421A7FBB2003746B3 /* VETestPlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VETestPlayer.cpp; sourceTree = "<group>"; };
+		705CC9B521A7FBB2003746B3 /* VETestPlayer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VETestPlayer.hpp; sourceTree = "<group>"; };
+		706B388521AD377C00553588 /* VESoundTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VESoundTouch.h; sourceTree = "<group>"; };
+		706B388621AD377C00553588 /* VESoundTouch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VESoundTouch.cpp; sourceTree = "<group>"; };
+		70B0CB7421A7A42200ECC372 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		70D3EB4921A655B0005D77D7 /* VEPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VEPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D3EB4B21A655B0005D77D7 /* VEPlayerTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VEPlayerTests.mm; sourceTree = "<group>"; };
+		70D3EB4D21A655B0005D77D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70D3EB5921A68F3D005D77D7 /* libvideo_edit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libvideo_edit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D3EB5C21A6A6E3005D77D7 /* VETestAudioProducer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VETestAudioProducer.cpp; sourceTree = "<group>"; };
+		70D3EB5D21A6A6E3005D77D7 /* VETestAudioProducer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VETestAudioProducer.hpp; sourceTree = "<group>"; };
+		70D3EB6021A6AEFC005D77D7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		70D3EB6221A6B0D5005D77D7 /* vpx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vpx.framework; path = ../../ext/lib/ios/vpx.framework; sourceTree = "<group>"; };
+		70D3EB6421A6DD2B005D77D7 /* VEAudioProducerTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VEAudioProducerTests.mm; sourceTree = "<group>"; };
+		70FB09A621B65877003EB6EA /* VEUnitTestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VEUnitTestConfig.h; path = ../../../video_edit/src/unit_test/VEUnitTestConfig.h; sourceTree = "<group>"; };
+		70FB09A721B65877003EB6EA /* VEUnitTestConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VEUnitTestConfig.cpp; path = ../../../video_edit/src/unit_test/VEUnitTestConfig.cpp; sourceTree = "<group>"; };
+		70FB09A921B65A43003EB6EA /* VEUnitTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VEUnitTest.cpp; path = ../../../video_edit/src/unit_test/VEUnitTest.cpp; sourceTree = "<group>"; };
+		70FB09AA21B65A43003EB6EA /* VEUnitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VEUnitTest.h; path = ../../../video_edit/src/unit_test/VEUnitTest.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B9D843B1F667DFE00B0639C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D3EB4621A655B0005D77D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705CC9B321A7FB3F003746B3 /* UIKit.framework in Frameworks */,
+				70B0CB7521A7A42200ECC372 /* libz.tbd in Frameworks */,
+				70D3EB6321A6B0D6005D77D7 /* vpx.framework in Frameworks */,
+				70D3EB6121A6AEFC005D77D7 /* AVFoundation.framework in Frameworks */,
+				70D3EB5A21A68F3D005D77D7 /* libvideo_edit.a in Frameworks */,
+				70D3EB4E21A655B0005D77D7 /* libVEPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B9D84351F667DFE00B0639C = {
+			isa = PBXGroup;
+			children = (
+				7014876C21AD273300E06259 /* src */,
+				7014873F21AD271000E06259 /* common */,
+				70D3EB4A21A655B0005D77D7 /* VEPlayerTests */,
+				5B9D843F1F667DFE00B0639C /* Products */,
+				5B9D84571F66995600B0639C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B9D843F1F667DFE00B0639C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B9D843E1F667DFE00B0639C /* libVEPlayer.a */,
+				70D3EB4921A655B0005D77D7 /* VEPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B9D84571F66995600B0639C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				705CC9B221A7FB3F003746B3 /* UIKit.framework */,
+				705CC9B021A7FB18003746B3 /* Foundation.framework */,
+				70B0CB7421A7A42200ECC372 /* libz.tbd */,
+				70D3EB6221A6B0D5005D77D7 /* vpx.framework */,
+				70D3EB6021A6AEFC005D77D7 /* AVFoundation.framework */,
+				70D3EB5921A68F3D005D77D7 /* libvideo_edit.a */,
+				5B9D84641F66996600B0639C /* OpenAL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7014873F21AD271000E06259 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				7014874021AD271000E06259 /* mbuf.c */,
+				7014874221AD271000E06259 /* list_head.h */,
+				7014874721AD271000E06259 /* lock.h */,
+				7014874821AD271000E06259 /* mydef.h */,
+				7014874921AD271000E06259 /* ios+ver.h */,
+				7014874C21AD271000E06259 /* ios+ver.mm */,
+				7014874D21AD271000E06259 /* mbuf.h */,
+				7014874E21AD271000E06259 /* my_buffer.h */,
+				7014875121AD271000E06259 /* mem.h */,
+				7014875221AD271000E06259 /* my_errno.h */,
+			);
+			name = common;
+			path = ../common;
+			sourceTree = "<group>";
+		};
+		7014876C21AD273300E06259 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7014876F21AD273300E06259 /* audio_producer */,
+				7014878121AD273300E06259 /* FFmpegHdr.h */,
+				706B388421AD377C00553588 /* sound_touch */,
+				7014876E21AD273300E06259 /* VEAudioManager.cpp */,
+				7014877821AD273300E06259 /* VEAudioManager.h */,
+				7014877E21AD273300E06259 /* VEAudioRender.h */,
+				7014876D21AD273300E06259 /* VEAudioRenderAU.mm */,
+				7014877D21AD273300E06259 /* VEAudioRenderSL.cpp */,
+				7014878021AD273300E06259 /* VEGraphManager.cpp */,
+				7014877521AD273300E06259 /* VEGraphManager.h */,
+				7014877C21AD273300E06259 /* VEPlayerLogs.h */,
+				7014878321AD273300E06259 /* VEMediaSource.cpp */,
+				7014877921AD273300E06259 /* VEMediaSource.h */,
+				7014877A21AD273300E06259 /* VEPlayer.cpp */,
+				7014877621AD273300E06259 /* VEPlayer.h */,
+				7014877B21AD273300E06259 /* VEPlayerConfig.h */,
+				7014877721AD273300E06259 /* VEPlayerUtils.cpp */,
+				7014877421AD273300E06259 /* VEPlayerUtils.h */,
+				7014877F21AD273300E06259 /* VEVideoManager.cpp */,
+				7014877221AD273300E06259 /* VEVideoManager.h */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		7014876F21AD273300E06259 /* audio_producer */ = {
+			isa = PBXGroup;
+			children = (
+				7014877121AD273300E06259 /* VEAudioProducer.cpp */,
+				7014877021AD273300E06259 /* VEAudioProducer.h */,
+			);
+			path = audio_producer;
+			sourceTree = "<group>";
+		};
+		706B388421AD377C00553588 /* sound_touch */ = {
+			isa = PBXGroup;
+			children = (
+				706B388521AD377C00553588 /* VESoundTouch.h */,
+				706B388621AD377C00553588 /* VESoundTouch.cpp */,
+			);
+			path = sound_touch;
+			sourceTree = "<group>";
+		};
+		70D3EB4A21A655B0005D77D7 /* VEPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				70D3EB5B21A6A67B005D77D7 /* unit_test */,
+				70D3EB4B21A655B0005D77D7 /* VEPlayerTests.mm */,
+				70D3EB4D21A655B0005D77D7 /* Info.plist */,
+				70D3EB6421A6DD2B005D77D7 /* VEAudioProducerTests.mm */,
+			);
+			path = VEPlayerTests;
+			sourceTree = "<group>";
+		};
+		70D3EB5B21A6A67B005D77D7 /* unit_test */ = {
+			isa = PBXGroup;
+			children = (
+				70D3EB5C21A6A6E3005D77D7 /* VETestAudioProducer.cpp */,
+				70D3EB5D21A6A6E3005D77D7 /* VETestAudioProducer.hpp */,
+				705CC9AD21A7E67C003746B3 /* VETestUtils.cpp */,
+				70FB09A721B65877003EB6EA /* VEUnitTestConfig.cpp */,
+				70FB09A921B65A43003EB6EA /* VEUnitTest.cpp */,
+				70FB09AA21B65A43003EB6EA /* VEUnitTest.h */,
+				70FB09A621B65877003EB6EA /* VEUnitTestConfig.h */,
+				705CC9AE21A7E67C003746B3 /* VETestUtils.hpp */,
+				705CC9B421A7FBB2003746B3 /* VETestPlayer.cpp */,
+				705CC9B521A7FBB2003746B3 /* VETestPlayer.hpp */,
+			);
+			name = unit_test;
+			path = ../src/unit_test;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B9D843D1F667DFE00B0639C /* VEPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B9D84471F667DFE00B0639C /* Build configuration list for PBXNativeTarget "VEPlayer" */;
+			buildPhases = (
+				5B9D843A1F667DFE00B0639C /* Sources */,
+				5B9D843B1F667DFE00B0639C /* Frameworks */,
+				5B9D843C1F667DFE00B0639C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VEPlayer;
+			productName = VEPlayer;
+			productReference = 5B9D843E1F667DFE00B0639C /* libVEPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		70D3EB4821A655B0005D77D7 /* VEPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70D3EB5121A655B0005D77D7 /* Build configuration list for PBXNativeTarget "VEPlayerTests" */;
+			buildPhases = (
+				70D3EB4521A655B0005D77D7 /* Sources */,
+				70D3EB4621A655B0005D77D7 /* Frameworks */,
+				70D3EB4721A655B0005D77D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70D3EB5021A655B0005D77D7 /* PBXTargetDependency */,
+			);
+			name = VEPlayerTests;
+			productName = VEPlayerTests;
+			productReference = 70D3EB4921A655B0005D77D7 /* VEPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B9D84361F667DFE00B0639C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = daxi;
+				TargetAttributes = {
+					5B9D843D1F667DFE00B0639C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M5J5V7BJA9;
+						ProvisioningStyle = Automatic;
+					};
+					70D3EB4821A655B0005D77D7 = {
+						CreatedOnToolsVersion = 10.0;
+						DevelopmentTeam = 9ZASTA83ZL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5B9D84391F667DFE00B0639C /* Build configuration list for PBXProject "VEPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B9D84351F667DFE00B0639C;
+			productRefGroup = 5B9D843F1F667DFE00B0639C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B9D843D1F667DFE00B0639C /* VEPlayer */,
+				70D3EB4821A655B0005D77D7 /* VEPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70D3EB4721A655B0005D77D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B9D843A1F667DFE00B0639C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7014878921AD273300E06259 /* VEAudioRenderSL.cpp in Sources */,
+				7014875621AD271000E06259 /* ios+ver.mm in Sources */,
+				7014875321AD271000E06259 /* mbuf.c in Sources */,
+				7014878421AD273300E06259 /* VEAudioRenderAU.mm in Sources */,
+				7014878B21AD273300E06259 /* VEGraphManager.cpp in Sources */,
+				7014878621AD273300E06259 /* VEAudioProducer.cpp in Sources */,
+				7014878A21AD273300E06259 /* VEVideoManager.cpp in Sources */,
+				7014878821AD273300E06259 /* VEPlayer.cpp in Sources */,
+				7014878D21AD273300E06259 /* VEMediaSource.cpp in Sources */,
+				7014878521AD273300E06259 /* VEAudioManager.cpp in Sources */,
+				706B388721AD377C00553588 /* VESoundTouch.cpp in Sources */,
+				7014878721AD273300E06259 /* VEPlayerUtils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D3EB4521A655B0005D77D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705CC9AF21A7E67C003746B3 /* VETestUtils.cpp in Sources */,
+				70D3EB4C21A655B0005D77D7 /* VEPlayerTests.mm in Sources */,
+				70FB09A821B65877003EB6EA /* VEUnitTestConfig.cpp in Sources */,
+				70D3EB6521A6DD2B005D77D7 /* VEAudioProducerTests.mm in Sources */,
+				70D3EB5E21A6A6E3005D77D7 /* VETestAudioProducer.cpp in Sources */,
+				705CC9B621A7FBB2003746B3 /* VETestPlayer.cpp in Sources */,
+				70FB09AB21B65A43003EB6EA /* VEUnitTest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70D3EB5021A655B0005D77D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B9D843D1F667DFE00B0639C /* VEPlayer */;
+			targetProxy = 70D3EB4F21A655B0005D77D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B9D84451F667DFE00B0639C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../video_edit",
+					"$(SRCROOT)/../jni",
+					"$(SRCROOT)/../../ext/include",
+					"$(SRCROOT)/../../ffmpeg/ffmpeg-3.4/ios/include",
+					"$(SRCROOT)/../../ffmpeg/ffmpeg-3.4/ffmpeg",
+					"$(SRCROOT)/../../video_edit/common",
+					"$(SRCROOT)/../../video_edit/src/audio_filter",
+					"$(SRCROOT)/../../video_edit/src/config",
+					"$(SRCROOT)/../../video_edit/src/utils",
+					"$(SRCROOT)/../../video_edit/src/export",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../../videoplayer/ffmpeg/ios-ffmpeg-3.4/";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B9D84461F667DFE00B0639C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../video_edit",
+					"$(SRCROOT)/../jni",
+					"$(SRCROOT)/../../ext/include",
+					"$(SRCROOT)/../../ffmpeg/ffmpeg-3.4/ios/include",
+					"$(SRCROOT)/../../ffmpeg/ffmpeg-3.4/ffmpeg",
+					"$(SRCROOT)/../../video_edit/common",
+					"$(SRCROOT)/../../video_edit/src/audio_filter",
+					"$(SRCROOT)/../../video_edit/src/config",
+					"$(SRCROOT)/../../video_edit/src/utils",
+					"$(SRCROOT)/../../video_edit/src/export",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../../videoplayer/ffmpeg/ios-ffmpeg-3.4/";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B9D84481F667DFE00B0639C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M5J5V7BJA9;
+				ENABLE_BITCODE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../video_edit",
+					"$(SRCROOT)/../jni",
+					"\"$(SRCROOT)/../../ext/include\"",
+					"\"$(SRCROOT)/../../ffmpeg/ffmpeg-3.4/ios/include\"",
+					"\"$(SRCROOT)/../../ffmpeg/ffmpeg-3.4/ffmpeg\"",
+					"\"$(SRCROOT)/../../video_edit/common\"",
+					"\"$(SRCROOT)/../../video_edit/src/audio_filter\"",
+					"\"$(SRCROOT)/../../video_edit/src/config\"",
+					"\"$(SRCROOT)/../../video_edit/src/utils\"",
+					"\"$(SRCROOT)/../../video_edit/src/export\"",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../ffmpeg/ffmpeg-3.4/ios\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5B9D84491F667DFE00B0639C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M5J5V7BJA9;
+				ENABLE_BITCODE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../video_edit",
+					"$(SRCROOT)/../jni",
+					"\"$(SRCROOT)/../../ext/include\"",
+					"\"$(SRCROOT)/../../ffmpeg/ffmpeg-3.4/ios/include\"",
+					"\"$(SRCROOT)/../../ffmpeg/ffmpeg-3.4/ffmpeg\"",
+					"\"$(SRCROOT)/../../video_edit/common\"",
+					"\"$(SRCROOT)/../../video_edit/src/audio_filter\"",
+					"\"$(SRCROOT)/../../video_edit/src/config\"",
+					"\"$(SRCROOT)/../../video_edit/src/utils\"",
+					"\"$(SRCROOT)/../../video_edit/src/export\"",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../ffmpeg/ffmpeg-3.4/ios\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		70D3EB5221A655B0005D77D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QHVideoCloudEdit.app/QHVideoCloudEdit";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZASTA83ZL;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../ext/lib/ios";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../video_edit",
+					"$(SRCROOT)/../jni",
+					"\"$(SRCROOT)/../../ext/include\"",
+					"\"$(SRCROOT)/../../ffmpeg/ffmpeg-3.4/ios/include\"",
+					"$(SRCROOT)/../../ffmpeg/ffmpeg-3.4/ffmpeg",
+					"\"$(SRCROOT)/../../video_edit/common\"",
+					"\"$(SRCROOT)/../../video_edit/src/audio_filter\"",
+					"\"$(SRCROOT)/../../video_edit/src/config\"",
+					"\"$(SRCROOT)/../../video_edit/src/utils\"",
+					"\"$(SRCROOT)/../../video_edit/src/export\"",
+					"\"$(SRCROOT)/../../video_edit/src\"/**",
+					"\"$(SRCROOT)/../../video_edit/codec/videotoolbox\"",
+				);
+				INFOPLIST_FILE = VEPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../videoplayer/ffmpeg/ios-ffmpeg-3.4/",
+					"$(SRCROOT)/../../ext/lib/ios",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmj.VEPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		70D3EB5321A655B0005D77D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QHVideoCloudEdit.app/QHVideoCloudEdit";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZASTA83ZL;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../ext/lib/ios";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../video_edit",
+					"$(SRCROOT)/../jni",
+					"\"$(SRCROOT)/../../ext/include\"",
+					"\"$(SRCROOT)/../../ffmpeg/ffmpeg-3.4/ios/include\"",
+					"$(SRCROOT)/../../ffmpeg/ffmpeg-3.4/ffmpeg",
+					"\"$(SRCROOT)/../../video_edit/common\"",
+					"\"$(SRCROOT)/../../video_edit/src/audio_filter\"",
+					"\"$(SRCROOT)/../../video_edit/src/config\"",
+					"\"$(SRCROOT)/../../video_edit/src/utils\"",
+					"\"$(SRCROOT)/../../video_edit/src/export\"",
+					"\"$(SRCROOT)/../../video_edit/src\"/**",
+					"\"$(SRCROOT)/../../video_edit/codec/videotoolbox\"",
+				);
+				INFOPLIST_FILE = VEPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../videoplayer/ffmpeg/ios-ffmpeg-3.4/",
+					"$(SRCROOT)/../../ext/lib/ios",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmj.VEPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B9D84391F667DFE00B0639C /* Build configuration list for PBXProject "VEPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9D84451F667DFE00B0639C /* Debug */,
+				5B9D84461F667DFE00B0639C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B9D84471F667DFE00B0639C /* Build configuration list for PBXNativeTarget "VEPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9D84481F667DFE00B0639C /* Debug */,
+				5B9D84491F667DFE00B0639C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70D3EB5121A655B0005D77D7 /* Build configuration list for PBXNativeTarget "VEPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D3EB5221A655B0005D77D7 /* Debug */,
+				70D3EB5321A655B0005D77D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B9D84361F667DFE00B0639C /* Project object */;
+}

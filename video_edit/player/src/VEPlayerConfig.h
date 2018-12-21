@@ -1,0 +1,31 @@
+#ifndef __VE_PLAYER_CONFIG_H__
+#define __VE_PLAYER_CONFIG_H__
+
+typedef enum
+{
+    PV_STATUS_LOADING = 0,
+    PV_STATUS_LOADED,
+    PV_STATUS_PLAY,
+    PV_STATUS_PAUSE,
+    PV_STATUS_STOP,
+    PV_STATUS_CLOSING,
+    PV_STATUS_CLOSED,
+    PV_STATUS_COMPLETE
+}PVSTATUS;
+
+// common 配置
+
+#define MAX_VIDEO_CACHE_MS   2000
+#define MAX_AUDIO_CACHE_MS   2000
+
+#define MAX_MEDIA_SOURCE     5
+
+#define VIDEO_FRAME_INTERVAL    100   //图片持续
+#define SILENT_FRAME_INTERVAL   23
+#define AUDIO_RENDER_CHANNELS   2
+#define AUDIO_RENDER_SAMPLERATE 44100
+#define MAX_VIDEO_FRAME_FILTER  500
+#define FLUSH_PKT_ID            10000
+
+#endif
+

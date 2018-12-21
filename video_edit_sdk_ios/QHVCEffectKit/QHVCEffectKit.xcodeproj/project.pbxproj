@@ -1,0 +1,922 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F0E3C7621B69AFF00B81893 /* QHVCEffectKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E3C7521B69AFF00B81893 /* QHVCEffectKitTests.m */; };
+		9F0E3C7821B69AFF00B81893 /* QHVCEffectKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9F9F81218857DE00423096 /* QHVCEffectKit.framework */; };
+		9F1D56E4218B2B1B00FD87CF /* QHVCEffectMix.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D56E2218B2B1B00FD87CF /* QHVCEffectMix.m */; };
+		9F25CD6621CBB08F001282AD /* QHVCEffectKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F25CD6521CBB08F001282AD /* QHVCEffectKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F90801B21B4D4EB00210535 /* QHVCEffectVideoTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90801921B4D4EB00210535 /* QHVCEffectVideoTransition.m */; };
+		9F90807021B4DB7B00210535 /* CICustomDirectionalTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90802121B4DB7A00210535 /* CICustomDirectionalTransition.m */; };
+		9F90807221B4DB7B00210535 /* CICustomDirectionalTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90802321B4DB7A00210535 /* CICustomDirectionalTransition.h */; };
+		9F90807321B4DB7B00210535 /* CICustomFadeGrayScaleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90802521B4DB7A00210535 /* CICustomFadeGrayScaleTransition.m */; };
+		9F90807421B4DB7B00210535 /* CICustomFadeGrayScaleTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90802621B4DB7A00210535 /* CICustomFadeGrayScaleTransition.h */; };
+		9F90807621B4DB7B00210535 /* CICustomGlitchMemoriesTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90802921B4DB7A00210535 /* CICustomGlitchMemoriesTransition.h */; };
+		9F90807721B4DB7B00210535 /* CICustomGlitchMemoriesTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90802A21B4DB7A00210535 /* CICustomGlitchMemoriesTransition.m */; };
+		9F90807921B4DB7B00210535 /* CICustomWipeDownTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90802D21B4DB7A00210535 /* CICustomWipeDownTransition.h */; };
+		9F90807B21B4DB7B00210535 /* CICustomWipeDownTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90802F21B4DB7A00210535 /* CICustomWipeDownTransition.m */; };
+		9F90807C21B4DB7B00210535 /* CICustomFadeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90803121B4DB7A00210535 /* CICustomFadeTransition.m */; };
+		9F90807E21B4DB7B00210535 /* CICustomFadeTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90803321B4DB7A00210535 /* CICustomFadeTransition.h */; };
+		9F90807F21B4DB7B00210535 /* CICustomWindowsliceTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90803521B4DB7A00210535 /* CICustomWindowsliceTransition.m */; };
+		9F90808021B4DB7B00210535 /* CICustomWindowsliceTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90803621B4DB7A00210535 /* CICustomWindowsliceTransition.h */; };
+		9F90808221B4DB7B00210535 /* CICustomCrossZoomTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90803921B4DB7A00210535 /* CICustomCrossZoomTransition.h */; };
+		9F90808421B4DB7B00210535 /* CICustomCrossZoomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90803B21B4DB7A00210535 /* CICustomCrossZoomTransition.m */; };
+		9F90808521B4DB7B00210535 /* CICustomFadeColorTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90803D21B4DB7A00210535 /* CICustomFadeColorTransition.m */; };
+		9F90808721B4DB7B00210535 /* CICustomFadeColorTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90803F21B4DB7A00210535 /* CICustomFadeColorTransition.h */; };
+		9F90808821B4DB7B00210535 /* CICustomBowTieHorizontalTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90804121B4DB7A00210535 /* CICustomBowTieHorizontalTransition.h */; };
+		9F90808A21B4DB7B00210535 /* CICustomBowTieHorizontalTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F90804321B4DB7A00210535 /* CICustomBowTieHorizontalTransition.mm */; };
+		9F90808C21B4DB7B00210535 /* CICustomCircleCropTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90804621B4DB7A00210535 /* CICustomCircleCropTransition.h */; };
+		9F90808D21B4DB7B00210535 /* CICustomCircleCropTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90804721B4DB7A00210535 /* CICustomCircleCropTransition.m */; };
+		9F90808E21B4DB7B00210535 /* CICustomFadeColorWhiteTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90804921B4DB7A00210535 /* CICustomFadeColorWhiteTransition.h */; };
+		9F90808F21B4DB7B00210535 /* CICustomFadeColorWhiteTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90804A21B4DB7A00210535 /* CICustomFadeColorWhiteTransition.m */; };
+		9F90809121B4DB7B00210535 /* CICustomMorphTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90804D21B4DB7A00210535 /* CICustomMorphTransition.m */; };
+		9F90809321B4DB7B00210535 /* CICustomMorphTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90804F21B4DB7A00210535 /* CICustomMorphTransition.h */; };
+		9F90809421B4DB7B00210535 /* CICustomWipeLeftTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90805121B4DB7A00210535 /* CICustomWipeLeftTransition.m */; };
+		9F90809521B4DB7B00210535 /* CICustomWipeLeftTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90805221B4DB7A00210535 /* CICustomWipeLeftTransition.h */; };
+		9F90809821B4DB7B00210535 /* CICustomWipeRightTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90805621B4DB7A00210535 /* CICustomWipeRightTransition.h */; };
+		9F90809921B4DB7B00210535 /* CICustomWipeRightTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90805721B4DB7A00210535 /* CICustomWipeRightTransition.m */; };
+		9F90809A21B4DB7B00210535 /* CICustomWipeUpTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90805921B4DB7A00210535 /* CICustomWipeUpTransition.h */; };
+		9F90809C21B4DB7B00210535 /* CICustomWipeUpTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90805B21B4DB7A00210535 /* CICustomWipeUpTransition.m */; };
+		9F90809E21B4DB7B00210535 /* CICustomRadialTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90805E21B4DB7A00210535 /* CICustomRadialTransition.h */; };
+		9F90809F21B4DB7B00210535 /* CICustomRadialTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90805F21B4DB7A00210535 /* CICustomRadialTransition.m */; };
+		9F9080A021B4DB7B00210535 /* CICustomZoominCirclesTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90806121B4DB7B00210535 /* CICustomZoominCirclesTransition.m */; };
+		9F9080A121B4DB7B00210535 /* CICustomZoominCirclesTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90806221B4DB7B00210535 /* CICustomZoominCirclesTransition.h */; };
+		9F9080A321B4DB7B00210535 /* CICustomBowTieVerticalTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90806521B4DB7B00210535 /* CICustomBowTieVerticalTransition.h */; };
+		9F9080A421B4DB7B00210535 /* CICustomBowTieVerticalTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F90806621B4DB7B00210535 /* CICustomBowTieVerticalTransition.mm */; };
+		9F9080A621B4DB7B00210535 /* CICustomSimpleZoomTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90806921B4DB7B00210535 /* CICustomSimpleZoomTransition.h */; };
+		9F9080A721B4DB7B00210535 /* CICustomSimpleZoomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90806A21B4DB7B00210535 /* CICustomSimpleZoomTransition.m */; };
+		9F9080A921B4DB7B00210535 /* CICustomLinearBlurTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F90806D21B4DB7B00210535 /* CICustomLinearBlurTransition.m */; };
+		9F9080AA21B4DB7B00210535 /* CICustomLinearBlurTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F90806E21B4DB7B00210535 /* CICustomLinearBlurTransition.h */; };
+		9F9080B621B507CF00210535 /* QHVCEffectVideoTransitionList.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9080B421B507CF00210535 /* QHVCEffectVideoTransitionList.h */; };
+		9F9080B721B507CF00210535 /* QHVCEffectVideoTransitionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9080B521B507CF00210535 /* QHVCEffectVideoTransitionList.m */; };
+		9F9308CF21B69D08009B3C9A /* QHVCEffectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9308CE21B69D08009B3C9A /* QHVCEffectTest.m */; };
+		9F9F9FAC218858C900423096 /* QHVCEffectBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9F9F9D218858C800423096 /* QHVCEffectBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F9F9FAD218858C900423096 /* QHVCEffectBase+Process.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9F9F9E218858C800423096 /* QHVCEffectBase+Process.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F9F9FB2218858C900423096 /* QHVCEffectBase+Process.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F9FA5218858C800423096 /* QHVCEffectBase+Process.m */; };
+		9F9F9FB3218858C900423096 /* QHVCEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9F9FA6218858C800423096 /* QHVCEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F9F9FB4218858C900423096 /* QHVCEffectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F9FA8218858C800423096 /* QHVCEffectUtils.m */; };
+		9F9F9FB5218858C900423096 /* QHVCEffectUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9F9FA9218858C800423096 /* QHVCEffectUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F9F9FB6218858C900423096 /* QHVCEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F9FAA218858C900423096 /* QHVCEffect.m */; };
+		9F9F9FB7218858C900423096 /* QHVCEffectBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F9FAB218858C900423096 /* QHVCEffectBase.m */; };
+		9F9F9FF8218863E000423096 /* CICustomColorCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F9FF5218863E000423096 /* CICustomColorCube.m */; };
+		9F9F9FF9218863E000423096 /* CICustomColorCube.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9F9FF6218863E000423096 /* CICustomColorCube.h */; };
+		9F9F9FFA218863E000423096 /* QHVCEffectFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F9FF7218863E000423096 /* QHVCEffectFilter.m */; };
+		9F9F9FFF2188647100423096 /* QHVCEffectSticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F9FFD2188647100423096 /* QHVCEffectSticker.m */; };
+		9F9FA0042189533B00423096 /* QHVCEffectVideoTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9FA0022189533B00423096 /* QHVCEffectVideoTransfer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F0E3C7921B69AFF00B81893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F9F9F78218857DE00423096 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F9F9F80218857DE00423096;
+			remoteInfo = QHVCEffectKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F0E3C7321B69AFF00B81893 /* QHVCEffectKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHVCEffectKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0E3C7521B69AFF00B81893 /* QHVCEffectKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHVCEffectKitTests.m; sourceTree = "<group>"; };
+		9F0E3C7721B69AFF00B81893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1D56E2218B2B1B00FD87CF /* QHVCEffectMix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHVCEffectMix.m; sourceTree = "<group>"; };
+		9F25CD6521CBB08F001282AD /* QHVCEffectKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHVCEffectKit.h; sourceTree = "<group>"; };
+		9F90801921B4D4EB00210535 /* QHVCEffectVideoTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHVCEffectVideoTransition.m; sourceTree = "<group>"; };
+		9F90802121B4DB7A00210535 /* CICustomDirectionalTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomDirectionalTransition.m; sourceTree = "<group>"; };
+		9F90802321B4DB7A00210535 /* CICustomDirectionalTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomDirectionalTransition.h; sourceTree = "<group>"; };
+		9F90802521B4DB7A00210535 /* CICustomFadeGrayScaleTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomFadeGrayScaleTransition.m; sourceTree = "<group>"; };
+		9F90802621B4DB7A00210535 /* CICustomFadeGrayScaleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomFadeGrayScaleTransition.h; sourceTree = "<group>"; };
+		9F90802921B4DB7A00210535 /* CICustomGlitchMemoriesTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomGlitchMemoriesTransition.h; sourceTree = "<group>"; };
+		9F90802A21B4DB7A00210535 /* CICustomGlitchMemoriesTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomGlitchMemoriesTransition.m; sourceTree = "<group>"; };
+		9F90802D21B4DB7A00210535 /* CICustomWipeDownTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomWipeDownTransition.h; sourceTree = "<group>"; };
+		9F90802F21B4DB7A00210535 /* CICustomWipeDownTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomWipeDownTransition.m; sourceTree = "<group>"; };
+		9F90803121B4DB7A00210535 /* CICustomFadeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomFadeTransition.m; sourceTree = "<group>"; };
+		9F90803321B4DB7A00210535 /* CICustomFadeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomFadeTransition.h; sourceTree = "<group>"; };
+		9F90803521B4DB7A00210535 /* CICustomWindowsliceTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomWindowsliceTransition.m; sourceTree = "<group>"; };
+		9F90803621B4DB7A00210535 /* CICustomWindowsliceTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomWindowsliceTransition.h; sourceTree = "<group>"; };
+		9F90803921B4DB7A00210535 /* CICustomCrossZoomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomCrossZoomTransition.h; sourceTree = "<group>"; };
+		9F90803B21B4DB7A00210535 /* CICustomCrossZoomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomCrossZoomTransition.m; sourceTree = "<group>"; };
+		9F90803D21B4DB7A00210535 /* CICustomFadeColorTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomFadeColorTransition.m; sourceTree = "<group>"; };
+		9F90803F21B4DB7A00210535 /* CICustomFadeColorTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomFadeColorTransition.h; sourceTree = "<group>"; };
+		9F90804121B4DB7A00210535 /* CICustomBowTieHorizontalTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomBowTieHorizontalTransition.h; sourceTree = "<group>"; };
+		9F90804321B4DB7A00210535 /* CICustomBowTieHorizontalTransition.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CICustomBowTieHorizontalTransition.mm; sourceTree = "<group>"; };
+		9F90804621B4DB7A00210535 /* CICustomCircleCropTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomCircleCropTransition.h; sourceTree = "<group>"; };
+		9F90804721B4DB7A00210535 /* CICustomCircleCropTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomCircleCropTransition.m; sourceTree = "<group>"; };
+		9F90804921B4DB7A00210535 /* CICustomFadeColorWhiteTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomFadeColorWhiteTransition.h; sourceTree = "<group>"; };
+		9F90804A21B4DB7A00210535 /* CICustomFadeColorWhiteTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomFadeColorWhiteTransition.m; sourceTree = "<group>"; };
+		9F90804D21B4DB7A00210535 /* CICustomMorphTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomMorphTransition.m; sourceTree = "<group>"; };
+		9F90804F21B4DB7A00210535 /* CICustomMorphTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomMorphTransition.h; sourceTree = "<group>"; };
+		9F90805121B4DB7A00210535 /* CICustomWipeLeftTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomWipeLeftTransition.m; sourceTree = "<group>"; };
+		9F90805221B4DB7A00210535 /* CICustomWipeLeftTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomWipeLeftTransition.h; sourceTree = "<group>"; };
+		9F90805621B4DB7A00210535 /* CICustomWipeRightTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomWipeRightTransition.h; sourceTree = "<group>"; };
+		9F90805721B4DB7A00210535 /* CICustomWipeRightTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomWipeRightTransition.m; sourceTree = "<group>"; };
+		9F90805921B4DB7A00210535 /* CICustomWipeUpTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomWipeUpTransition.h; sourceTree = "<group>"; };
+		9F90805B21B4DB7A00210535 /* CICustomWipeUpTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomWipeUpTransition.m; sourceTree = "<group>"; };
+		9F90805E21B4DB7A00210535 /* CICustomRadialTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomRadialTransition.h; sourceTree = "<group>"; };
+		9F90805F21B4DB7A00210535 /* CICustomRadialTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomRadialTransition.m; sourceTree = "<group>"; };
+		9F90806121B4DB7B00210535 /* CICustomZoominCirclesTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomZoominCirclesTransition.m; sourceTree = "<group>"; };
+		9F90806221B4DB7B00210535 /* CICustomZoominCirclesTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomZoominCirclesTransition.h; sourceTree = "<group>"; };
+		9F90806521B4DB7B00210535 /* CICustomBowTieVerticalTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomBowTieVerticalTransition.h; sourceTree = "<group>"; };
+		9F90806621B4DB7B00210535 /* CICustomBowTieVerticalTransition.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CICustomBowTieVerticalTransition.mm; sourceTree = "<group>"; };
+		9F90806921B4DB7B00210535 /* CICustomSimpleZoomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomSimpleZoomTransition.h; sourceTree = "<group>"; };
+		9F90806A21B4DB7B00210535 /* CICustomSimpleZoomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomSimpleZoomTransition.m; sourceTree = "<group>"; };
+		9F90806D21B4DB7B00210535 /* CICustomLinearBlurTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomLinearBlurTransition.m; sourceTree = "<group>"; };
+		9F90806E21B4DB7B00210535 /* CICustomLinearBlurTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomLinearBlurTransition.h; sourceTree = "<group>"; };
+		9F9080B421B507CF00210535 /* QHVCEffectVideoTransitionList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHVCEffectVideoTransitionList.h; sourceTree = "<group>"; };
+		9F9080B521B507CF00210535 /* QHVCEffectVideoTransitionList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHVCEffectVideoTransitionList.m; sourceTree = "<group>"; };
+		9F9308CD21B69D08009B3C9A /* QHVCEffectTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHVCEffectTest.h; sourceTree = "<group>"; };
+		9F9308CE21B69D08009B3C9A /* QHVCEffectTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHVCEffectTest.m; sourceTree = "<group>"; };
+		9F9F9F81218857DE00423096 /* QHVCEffectKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QHVCEffectKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9F9F9D218858C800423096 /* QHVCEffectBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEffectBase.h; sourceTree = "<group>"; };
+		9F9F9F9E218858C800423096 /* QHVCEffectBase+Process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QHVCEffectBase+Process.h"; sourceTree = "<group>"; };
+		9F9F9FA5218858C800423096 /* QHVCEffectBase+Process.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QHVCEffectBase+Process.m"; sourceTree = "<group>"; };
+		9F9F9FA6218858C800423096 /* QHVCEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEffect.h; sourceTree = "<group>"; };
+		9F9F9FA8218858C800423096 /* QHVCEffectUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEffectUtils.m; sourceTree = "<group>"; };
+		9F9F9FA9218858C800423096 /* QHVCEffectUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEffectUtils.h; sourceTree = "<group>"; };
+		9F9F9FAA218858C900423096 /* QHVCEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEffect.m; sourceTree = "<group>"; };
+		9F9F9FAB218858C900423096 /* QHVCEffectBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEffectBase.m; sourceTree = "<group>"; };
+		9F9F9FF5218863E000423096 /* CICustomColorCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CICustomColorCube.m; sourceTree = "<group>"; };
+		9F9F9FF6218863E000423096 /* CICustomColorCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CICustomColorCube.h; sourceTree = "<group>"; };
+		9F9F9FF7218863E000423096 /* QHVCEffectFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEffectFilter.m; sourceTree = "<group>"; };
+		9F9F9FFD2188647100423096 /* QHVCEffectSticker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEffectSticker.m; sourceTree = "<group>"; };
+		9F9FA0022189533B00423096 /* QHVCEffectVideoTransfer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHVCEffectVideoTransfer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F0E3C7021B69AFF00B81893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0E3C7821B69AFF00B81893 /* QHVCEffectKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9F9F7E218857DE00423096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F0E3C7421B69AFF00B81893 /* QHVCEffectKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E3C7721B69AFF00B81893 /* Info.plist */,
+				9F0E3C7521B69AFF00B81893 /* QHVCEffectKitTests.m */,
+				9F9308CD21B69D08009B3C9A /* QHVCEffectTest.h */,
+				9F9308CE21B69D08009B3C9A /* QHVCEffectTest.m */,
+			);
+			path = QHVCEffectKitTests;
+			sourceTree = "<group>";
+		};
+		9F1D56DE218B2B0000FD87CF /* Mix */ = {
+			isa = PBXGroup;
+			children = (
+				9F1D56E2218B2B1B00FD87CF /* QHVCEffectMix.m */,
+			);
+			path = Mix;
+			sourceTree = "<group>";
+		};
+		9F90801721B4D22300210535 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				9F90801F21B4DB2800210535 /* Filter */,
+				9F90801921B4D4EB00210535 /* QHVCEffectVideoTransition.m */,
+				9F9080B421B507CF00210535 /* QHVCEffectVideoTransitionList.h */,
+				9F9080B521B507CF00210535 /* QHVCEffectVideoTransitionList.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		9F90801F21B4DB2800210535 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				9F90804021B4DB7A00210535 /* BowTieHorizontal */,
+				9F90806421B4DB7B00210535 /* BowTieVertical */,
+				9F90804421B4DB7A00210535 /* CircleCrop */,
+				9F90803821B4DB7A00210535 /* CrossZoom */,
+				9F90802021B4DB7A00210535 /* Directional */,
+				9F90803021B4DB7A00210535 /* Fade */,
+				9F90803C21B4DB7A00210535 /* FadeColor */,
+				9F90804821B4DB7A00210535 /* FadeColorWhite */,
+				9F90802421B4DB7A00210535 /* FadeGrayScale */,
+				9F90802821B4DB7A00210535 /* GlitchMemories */,
+				9F90806C21B4DB7B00210535 /* LinearBlur */,
+				9F90804C21B4DB7A00210535 /* Morph */,
+				9F90805C21B4DB7A00210535 /* Radial */,
+				9F90806821B4DB7B00210535 /* SimpleZoom */,
+				9F90803421B4DB7A00210535 /* Windowslice */,
+				9F90802C21B4DB7A00210535 /* WipeDown */,
+				9F90805021B4DB7A00210535 /* WipeLeft */,
+				9F90805421B4DB7A00210535 /* WipeRight */,
+				9F90805821B4DB7A00210535 /* WipeUp */,
+				9F90806021B4DB7A00210535 /* ZoominCircles */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		9F90802021B4DB7A00210535 /* Directional */ = {
+			isa = PBXGroup;
+			children = (
+				9F90802321B4DB7A00210535 /* CICustomDirectionalTransition.h */,
+				9F90802121B4DB7A00210535 /* CICustomDirectionalTransition.m */,
+			);
+			path = Directional;
+			sourceTree = "<group>";
+		};
+		9F90802421B4DB7A00210535 /* FadeGrayScale */ = {
+			isa = PBXGroup;
+			children = (
+				9F90802621B4DB7A00210535 /* CICustomFadeGrayScaleTransition.h */,
+				9F90802521B4DB7A00210535 /* CICustomFadeGrayScaleTransition.m */,
+			);
+			path = FadeGrayScale;
+			sourceTree = "<group>";
+		};
+		9F90802821B4DB7A00210535 /* GlitchMemories */ = {
+			isa = PBXGroup;
+			children = (
+				9F90802921B4DB7A00210535 /* CICustomGlitchMemoriesTransition.h */,
+				9F90802A21B4DB7A00210535 /* CICustomGlitchMemoriesTransition.m */,
+			);
+			path = GlitchMemories;
+			sourceTree = "<group>";
+		};
+		9F90802C21B4DB7A00210535 /* WipeDown */ = {
+			isa = PBXGroup;
+			children = (
+				9F90802D21B4DB7A00210535 /* CICustomWipeDownTransition.h */,
+				9F90802F21B4DB7A00210535 /* CICustomWipeDownTransition.m */,
+			);
+			path = WipeDown;
+			sourceTree = "<group>";
+		};
+		9F90803021B4DB7A00210535 /* Fade */ = {
+			isa = PBXGroup;
+			children = (
+				9F90803321B4DB7A00210535 /* CICustomFadeTransition.h */,
+				9F90803121B4DB7A00210535 /* CICustomFadeTransition.m */,
+			);
+			path = Fade;
+			sourceTree = "<group>";
+		};
+		9F90803421B4DB7A00210535 /* Windowslice */ = {
+			isa = PBXGroup;
+			children = (
+				9F90803621B4DB7A00210535 /* CICustomWindowsliceTransition.h */,
+				9F90803521B4DB7A00210535 /* CICustomWindowsliceTransition.m */,
+			);
+			path = Windowslice;
+			sourceTree = "<group>";
+		};
+		9F90803821B4DB7A00210535 /* CrossZoom */ = {
+			isa = PBXGroup;
+			children = (
+				9F90803921B4DB7A00210535 /* CICustomCrossZoomTransition.h */,
+				9F90803B21B4DB7A00210535 /* CICustomCrossZoomTransition.m */,
+			);
+			path = CrossZoom;
+			sourceTree = "<group>";
+		};
+		9F90803C21B4DB7A00210535 /* FadeColor */ = {
+			isa = PBXGroup;
+			children = (
+				9F90803F21B4DB7A00210535 /* CICustomFadeColorTransition.h */,
+				9F90803D21B4DB7A00210535 /* CICustomFadeColorTransition.m */,
+			);
+			path = FadeColor;
+			sourceTree = "<group>";
+		};
+		9F90804021B4DB7A00210535 /* BowTieHorizontal */ = {
+			isa = PBXGroup;
+			children = (
+				9F90804121B4DB7A00210535 /* CICustomBowTieHorizontalTransition.h */,
+				9F90804321B4DB7A00210535 /* CICustomBowTieHorizontalTransition.mm */,
+			);
+			path = BowTieHorizontal;
+			sourceTree = "<group>";
+		};
+		9F90804421B4DB7A00210535 /* CircleCrop */ = {
+			isa = PBXGroup;
+			children = (
+				9F90804621B4DB7A00210535 /* CICustomCircleCropTransition.h */,
+				9F90804721B4DB7A00210535 /* CICustomCircleCropTransition.m */,
+			);
+			path = CircleCrop;
+			sourceTree = "<group>";
+		};
+		9F90804821B4DB7A00210535 /* FadeColorWhite */ = {
+			isa = PBXGroup;
+			children = (
+				9F90804921B4DB7A00210535 /* CICustomFadeColorWhiteTransition.h */,
+				9F90804A21B4DB7A00210535 /* CICustomFadeColorWhiteTransition.m */,
+			);
+			path = FadeColorWhite;
+			sourceTree = "<group>";
+		};
+		9F90804C21B4DB7A00210535 /* Morph */ = {
+			isa = PBXGroup;
+			children = (
+				9F90804F21B4DB7A00210535 /* CICustomMorphTransition.h */,
+				9F90804D21B4DB7A00210535 /* CICustomMorphTransition.m */,
+			);
+			path = Morph;
+			sourceTree = "<group>";
+		};
+		9F90805021B4DB7A00210535 /* WipeLeft */ = {
+			isa = PBXGroup;
+			children = (
+				9F90805221B4DB7A00210535 /* CICustomWipeLeftTransition.h */,
+				9F90805121B4DB7A00210535 /* CICustomWipeLeftTransition.m */,
+			);
+			path = WipeLeft;
+			sourceTree = "<group>";
+		};
+		9F90805421B4DB7A00210535 /* WipeRight */ = {
+			isa = PBXGroup;
+			children = (
+				9F90805621B4DB7A00210535 /* CICustomWipeRightTransition.h */,
+				9F90805721B4DB7A00210535 /* CICustomWipeRightTransition.m */,
+			);
+			path = WipeRight;
+			sourceTree = "<group>";
+		};
+		9F90805821B4DB7A00210535 /* WipeUp */ = {
+			isa = PBXGroup;
+			children = (
+				9F90805921B4DB7A00210535 /* CICustomWipeUpTransition.h */,
+				9F90805B21B4DB7A00210535 /* CICustomWipeUpTransition.m */,
+			);
+			path = WipeUp;
+			sourceTree = "<group>";
+		};
+		9F90805C21B4DB7A00210535 /* Radial */ = {
+			isa = PBXGroup;
+			children = (
+				9F90805E21B4DB7A00210535 /* CICustomRadialTransition.h */,
+				9F90805F21B4DB7A00210535 /* CICustomRadialTransition.m */,
+			);
+			path = Radial;
+			sourceTree = "<group>";
+		};
+		9F90806021B4DB7A00210535 /* ZoominCircles */ = {
+			isa = PBXGroup;
+			children = (
+				9F90806221B4DB7B00210535 /* CICustomZoominCirclesTransition.h */,
+				9F90806121B4DB7B00210535 /* CICustomZoominCirclesTransition.m */,
+			);
+			path = ZoominCircles;
+			sourceTree = "<group>";
+		};
+		9F90806421B4DB7B00210535 /* BowTieVertical */ = {
+			isa = PBXGroup;
+			children = (
+				9F90806521B4DB7B00210535 /* CICustomBowTieVerticalTransition.h */,
+				9F90806621B4DB7B00210535 /* CICustomBowTieVerticalTransition.mm */,
+			);
+			path = BowTieVertical;
+			sourceTree = "<group>";
+		};
+		9F90806821B4DB7B00210535 /* SimpleZoom */ = {
+			isa = PBXGroup;
+			children = (
+				9F90806921B4DB7B00210535 /* CICustomSimpleZoomTransition.h */,
+				9F90806A21B4DB7B00210535 /* CICustomSimpleZoomTransition.m */,
+			);
+			path = SimpleZoom;
+			sourceTree = "<group>";
+		};
+		9F90806C21B4DB7B00210535 /* LinearBlur */ = {
+			isa = PBXGroup;
+			children = (
+				9F90806E21B4DB7B00210535 /* CICustomLinearBlurTransition.h */,
+				9F90806D21B4DB7B00210535 /* CICustomLinearBlurTransition.m */,
+			);
+			path = LinearBlur;
+			sourceTree = "<group>";
+		};
+		9F9F9F77218857DE00423096 = {
+			isa = PBXGroup;
+			children = (
+				9F9F9F83218857DE00423096 /* QHVCEffectKit */,
+				9F0E3C7421B69AFF00B81893 /* QHVCEffectKitTests */,
+				9F9F9F82218857DE00423096 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F9F9F82218857DE00423096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F9F81218857DE00423096 /* QHVCEffectKit.framework */,
+				9F0E3C7321B69AFF00B81893 /* QHVCEffectKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F9F9F83218857DE00423096 /* QHVCEffectKit */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F9FA7218858C800423096 /* Helper */,
+				9F90801721B4D22300210535 /* Transition */,
+				9F9F9FFB2188647100423096 /* Sticker */,
+				9F9F9FF3218863E000423096 /* Filter */,
+				9F9FA0002189531B00423096 /* VideoTransfer */,
+				9F1D56DE218B2B0000FD87CF /* Mix */,
+				9F9F9FA6218858C800423096 /* QHVCEffect.h */,
+				9F9F9FAA218858C900423096 /* QHVCEffect.m */,
+				9F9F9F9D218858C800423096 /* QHVCEffectBase.h */,
+				9F9F9FAB218858C900423096 /* QHVCEffectBase.m */,
+				9F9F9F9E218858C800423096 /* QHVCEffectBase+Process.h */,
+				9F9F9FA5218858C800423096 /* QHVCEffectBase+Process.m */,
+				9F25CD6521CBB08F001282AD /* QHVCEffectKit.h */,
+			);
+			path = QHVCEffectKit;
+			sourceTree = "<group>";
+		};
+		9F9F9FA7218858C800423096 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F9FA9218858C800423096 /* QHVCEffectUtils.h */,
+				9F9F9FA8218858C800423096 /* QHVCEffectUtils.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9F9F9FF3218863E000423096 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F9FF4218863E000423096 /* CLUTFilter */,
+				9F9F9FF7218863E000423096 /* QHVCEffectFilter.m */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		9F9F9FF4218863E000423096 /* CLUTFilter */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F9FF5218863E000423096 /* CICustomColorCube.m */,
+				9F9F9FF6218863E000423096 /* CICustomColorCube.h */,
+			);
+			path = CLUTFilter;
+			sourceTree = "<group>";
+		};
+		9F9F9FFB2188647100423096 /* Sticker */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F9FFD2188647100423096 /* QHVCEffectSticker.m */,
+			);
+			path = Sticker;
+			sourceTree = "<group>";
+		};
+		9F9FA0002189531B00423096 /* VideoTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				9F9FA0022189533B00423096 /* QHVCEffectVideoTransfer.m */,
+			);
+			path = VideoTransfer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9F9F9F7C218857DE00423096 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9F9FB3218858C900423096 /* QHVCEffect.h in Headers */,
+				9F90809E21B4DB7B00210535 /* CICustomRadialTransition.h in Headers */,
+				9F9080A121B4DB7B00210535 /* CICustomZoominCirclesTransition.h in Headers */,
+				9F9F9FAC218858C900423096 /* QHVCEffectBase.h in Headers */,
+				9F25CD6621CBB08F001282AD /* QHVCEffectKit.h in Headers */,
+				9F90808E21B4DB7B00210535 /* CICustomFadeColorWhiteTransition.h in Headers */,
+				9F9080A621B4DB7B00210535 /* CICustomSimpleZoomTransition.h in Headers */,
+				9F90807421B4DB7B00210535 /* CICustomFadeGrayScaleTransition.h in Headers */,
+				9F90809521B4DB7B00210535 /* CICustomWipeLeftTransition.h in Headers */,
+				9F90809321B4DB7B00210535 /* CICustomMorphTransition.h in Headers */,
+				9F9F9FAD218858C900423096 /* QHVCEffectBase+Process.h in Headers */,
+				9F90808721B4DB7B00210535 /* CICustomFadeColorTransition.h in Headers */,
+				9F90807221B4DB7B00210535 /* CICustomDirectionalTransition.h in Headers */,
+				9F90808C21B4DB7B00210535 /* CICustomCircleCropTransition.h in Headers */,
+				9F9080A321B4DB7B00210535 /* CICustomBowTieVerticalTransition.h in Headers */,
+				9F9F9FF9218863E000423096 /* CICustomColorCube.h in Headers */,
+				9F90807621B4DB7B00210535 /* CICustomGlitchMemoriesTransition.h in Headers */,
+				9F90808821B4DB7B00210535 /* CICustomBowTieHorizontalTransition.h in Headers */,
+				9F90807921B4DB7B00210535 /* CICustomWipeDownTransition.h in Headers */,
+				9F90808221B4DB7B00210535 /* CICustomCrossZoomTransition.h in Headers */,
+				9F9080AA21B4DB7B00210535 /* CICustomLinearBlurTransition.h in Headers */,
+				9F9080B621B507CF00210535 /* QHVCEffectVideoTransitionList.h in Headers */,
+				9F90808021B4DB7B00210535 /* CICustomWindowsliceTransition.h in Headers */,
+				9F90809A21B4DB7B00210535 /* CICustomWipeUpTransition.h in Headers */,
+				9F90807E21B4DB7B00210535 /* CICustomFadeTransition.h in Headers */,
+				9F9F9FB5218858C900423096 /* QHVCEffectUtils.h in Headers */,
+				9F90809821B4DB7B00210535 /* CICustomWipeRightTransition.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9F0E3C7221B69AFF00B81893 /* QHVCEffectKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0E3C7D21B69AFF00B81893 /* Build configuration list for PBXNativeTarget "QHVCEffectKitTests" */;
+			buildPhases = (
+				9F0E3C6F21B69AFF00B81893 /* Sources */,
+				9F0E3C7021B69AFF00B81893 /* Frameworks */,
+				9F0E3C7121B69AFF00B81893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F0E3C7A21B69AFF00B81893 /* PBXTargetDependency */,
+			);
+			name = QHVCEffectKitTests;
+			productName = QHVCEffectKitTests;
+			productReference = 9F0E3C7321B69AFF00B81893 /* QHVCEffectKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F9F9F80218857DE00423096 /* QHVCEffectKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9F9F89218857DE00423096 /* Build configuration list for PBXNativeTarget "QHVCEffectKit" */;
+			buildPhases = (
+				9F9F9F7C218857DE00423096 /* Headers */,
+				9F9F9F7D218857DE00423096 /* Sources */,
+				9F9F9F7E218857DE00423096 /* Frameworks */,
+				9F9F9F7F218857DE00423096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QHVCEffectKit;
+			productName = QHVCEffectKit;
+			productReference = 9F9F9F81218857DE00423096 /* QHVCEffectKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F9F9F78218857DE00423096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "liyue-g";
+				TargetAttributes = {
+					9F0E3C7221B69AFF00B81893 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9F9F9F80218857DE00423096 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 9F9F9F7B218857DE00423096 /* Build configuration list for PBXProject "QHVCEffectKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F9F9F77218857DE00423096;
+			productRefGroup = 9F9F9F82218857DE00423096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F9F9F80218857DE00423096 /* QHVCEffectKit */,
+				9F0E3C7221B69AFF00B81893 /* QHVCEffectKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F0E3C7121B69AFF00B81893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9F9F7F218857DE00423096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F0E3C6F21B69AFF00B81893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9308CF21B69D08009B3C9A /* QHVCEffectTest.m in Sources */,
+				9F0E3C7621B69AFF00B81893 /* QHVCEffectKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9F9F7D218857DE00423096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9F9FF8218863E000423096 /* CICustomColorCube.m in Sources */,
+				9F90808D21B4DB7B00210535 /* CICustomCircleCropTransition.m in Sources */,
+				9F90807021B4DB7B00210535 /* CICustomDirectionalTransition.m in Sources */,
+				9F9F9FB4218858C900423096 /* QHVCEffectUtils.m in Sources */,
+				9F90807321B4DB7B00210535 /* CICustomFadeGrayScaleTransition.m in Sources */,
+				9F90807F21B4DB7B00210535 /* CICustomWindowsliceTransition.m in Sources */,
+				9F90807721B4DB7B00210535 /* CICustomGlitchMemoriesTransition.m in Sources */,
+				9F9080A421B4DB7B00210535 /* CICustomBowTieVerticalTransition.mm in Sources */,
+				9F9F9FB6218858C900423096 /* QHVCEffect.m in Sources */,
+				9F90801B21B4D4EB00210535 /* QHVCEffectVideoTransition.m in Sources */,
+				9F9F9FB2218858C900423096 /* QHVCEffectBase+Process.m in Sources */,
+				9F90808521B4DB7B00210535 /* CICustomFadeColorTransition.m in Sources */,
+				9F90809C21B4DB7B00210535 /* CICustomWipeUpTransition.m in Sources */,
+				9F9080A021B4DB7B00210535 /* CICustomZoominCirclesTransition.m in Sources */,
+				9F90807C21B4DB7B00210535 /* CICustomFadeTransition.m in Sources */,
+				9F90809421B4DB7B00210535 /* CICustomWipeLeftTransition.m in Sources */,
+				9F90809921B4DB7B00210535 /* CICustomWipeRightTransition.m in Sources */,
+				9F90808F21B4DB7B00210535 /* CICustomFadeColorWhiteTransition.m in Sources */,
+				9F90807B21B4DB7B00210535 /* CICustomWipeDownTransition.m in Sources */,
+				9F9080A921B4DB7B00210535 /* CICustomLinearBlurTransition.m in Sources */,
+				9F1D56E4218B2B1B00FD87CF /* QHVCEffectMix.m in Sources */,
+				9F90809F21B4DB7B00210535 /* CICustomRadialTransition.m in Sources */,
+				9F9080B721B507CF00210535 /* QHVCEffectVideoTransitionList.m in Sources */,
+				9F9F9FFA218863E000423096 /* QHVCEffectFilter.m in Sources */,
+				9F9080A721B4DB7B00210535 /* CICustomSimpleZoomTransition.m in Sources */,
+				9F90809121B4DB7B00210535 /* CICustomMorphTransition.m in Sources */,
+				9F90808421B4DB7B00210535 /* CICustomCrossZoomTransition.m in Sources */,
+				9F90808A21B4DB7B00210535 /* CICustomBowTieHorizontalTransition.mm in Sources */,
+				9F9F9FFF2188647100423096 /* QHVCEffectSticker.m in Sources */,
+				9F9F9FB7218858C900423096 /* QHVCEffectBase.m in Sources */,
+				9F9FA0042189533B00423096 /* QHVCEffectVideoTransfer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F0E3C7A21B69AFF00B81893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F9F9F80218857DE00423096 /* QHVCEffectKit */;
+			targetProxy = 9F0E3C7921B69AFF00B81893 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F0E3C7B21B69AFF00B81893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QHVideoCloudEdit.app/QHVideoCloudEdit";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZASTA83ZL;
+				INFOPLIST_FILE = QHVCEffectKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qhvideocloud..QHVCEffectKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		9F0E3C7C21B69AFF00B81893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QHVideoCloudEdit.app/QHVideoCloudEdit";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZASTA83ZL;
+				INFOPLIST_FILE = QHVCEffectKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qhvideocloud..QHVCEffectKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		9F9F9F87218857DE00423096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F9F9F88218857DE00423096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F9F9F8A218857DE00423096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qhvideocloud.effectkit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F9F9F8B218857DE00423096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qhvideocloud.effectkit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F0E3C7D21B69AFF00B81893 /* Build configuration list for PBXNativeTarget "QHVCEffectKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0E3C7B21B69AFF00B81893 /* Debug */,
+				9F0E3C7C21B69AFF00B81893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9F9F7B218857DE00423096 /* Build configuration list for PBXProject "QHVCEffectKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9F9F87218857DE00423096 /* Debug */,
+				9F9F9F88218857DE00423096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9F9F89218857DE00423096 /* Build configuration list for PBXNativeTarget "QHVCEffectKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9F9F8A218857DE00423096 /* Debug */,
+				9F9F9F8B218857DE00423096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F9F9F78218857DE00423096 /* Project object */;
+}

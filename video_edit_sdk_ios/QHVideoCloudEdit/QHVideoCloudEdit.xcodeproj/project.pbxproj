@@ -1,0 +1,1481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1A252D993FD96E306B01B6 /* libPods-QHVideoCloudEdit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5788B20B17DC5753E9E2E392 /* libPods-QHVideoCloudEdit.a */; };
+		2818B2C921BD41830000CD26 /* pic_rgba.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2818B2C721BD41830000CD26 /* pic_rgba.PNG */; };
+		28394B9021B65E6200E2741E /* hevc.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28394B8A21B65E6200E2741E /* hevc.mp4 */; };
+		28394B9121B65E6200E2741E /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28394B8B21B65E6200E2741E /* music.mp3 */; };
+		28394B9221B65E6200E2741E /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28394B8C21B65E6200E2741E /* pic1.jpg */; };
+		28394B9321B65E6200E2741E /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28394B8D21B65E6200E2741E /* video2.mp4 */; };
+		28394B9421B65E6200E2741E /* video1.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 28394B8E21B65E6200E2741E /* video1.MOV */; };
+		28394B9521B65E6200E2741E /* a.webm in Resources */ = {isa = PBXBuildFile; fileRef = 28394B8F21B65E6200E2741E /* a.webm */; };
+		9F027CC621BD316600B65686 /* test_gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F027CC421BD316600B65686 /* test_gif.gif */; };
+		9F10E5B521AAF49B004354C6 /* QHVCEditSubtitleItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F10E5B321AAF49B004354C6 /* QHVCEditSubtitleItemView.m */; };
+		9F10E5B921AB0539004354C6 /* QHVCEditMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F10E5B721AB0539004354C6 /* QHVCEditMusicView.m */; };
+		9F10E5BC21AB05BC004354C6 /* QHVCEditMusicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F10E5BA21AB05BC004354C6 /* QHVCEditMusicView.xib */; };
+		9F10E69521AC0162004354C6 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F10E69321AC0162004354C6 /* readme.txt */; };
+		9F10E72A21AC1A41004354C6 /* QHVCEditKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F10E71E21AC1A04004354C6 /* QHVCEditKit.framework */; };
+		9F10E73921AC1D85004354C6 /* QHVCEditKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F10E71E21AC1A04004354C6 /* QHVCEditKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F9080CC21B5427D00210535 /* QHVCEditTransitionList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F9080CB21B5427D00210535 /* QHVCEditTransitionList.plist */; };
+		9F9308D121B6A73D009B3C9A /* test_lut.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9308D021B6A73D009B3C9A /* test_lut.png */; };
+		9F9308D321B6A873009B3C9A /* test_sticker.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9308D221B6A873009B3C9A /* test_sticker.png */; };
+		9F93093121B7C585009B3C9A /* test_heic.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = 9F93092D21B7C585009B3C9A /* test_heic.HEIC */; };
+		9FC0EB9821AFCF93006DFD76 /* QHVCEditMusicListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0EB9721AFCF93006DFD76 /* QHVCEditMusicListView.m */; };
+		9FC0EB9A21AFCFBB006DFD76 /* QHVCEditMusicListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0EB9921AFCFBB006DFD76 /* QHVCEditMusicListView.xib */; };
+		9FC55D2E21A25EED00A053A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC55D2D21A25EED00A053A8 /* main.m */; };
+		9FC5621721A2654B00A053A8 /* QHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC55E9921A2654900A053A8 /* QHNavigationViewController.m */; };
+		9FC5621821A2654B00A053A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC55E9A21A2654900A053A8 /* AppDelegate.m */; };
+		9FC5621921A2654B00A053A8 /* QHRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC55E9B21A2654900A053A8 /* QHRootViewController.m */; };
+		9FC5621A21A2654B00A053A8 /* QHVCTabTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC55E9C21A2654900A053A8 /* QHVCTabTableViewCell.m */; };
+		9FC5629821A2654B00A053A8 /* QHVCEditPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC55FA821A2654900A053A8 /* QHVCEditPrefs.m */; };
+		9FC5633C21A2654B00A053A8 /* QHVCEditReorderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC560CC21A2654900A053A8 /* QHVCEditReorderVC.m */; };
+		9FC5633D21A2654B00A053A8 /* QHVCEditTrackClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC560CF21A2654900A053A8 /* QHVCEditTrackClipView.m */; };
+		9FC5633E21A2654B00A053A8 /* QHVCEditReorderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC560D121A2654900A053A8 /* QHVCEditReorderVC.xib */; };
+		9FC5633F21A2654B00A053A8 /* QHVCEditProducerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC560D421A2654900A053A8 /* QHVCEditProducerVC.xib */; };
+		9FC5634021A2654B00A053A8 /* QHVCEditProducerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC560D521A2654900A053A8 /* QHVCEditProducerVC.m */; };
+		9FC5639821A2654B00A053A8 /* QHVCEditSelectPhotoAlbumVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5616921A2654A00A053A8 /* QHVCEditSelectPhotoAlbumVC.xib */; };
+		9FC5639921A2654B00A053A8 /* QHVCEditPhotoSelectedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5616C21A2654A00A053A8 /* QHVCEditPhotoSelectedCell.m */; };
+		9FC5639A21A2654B00A053A8 /* QHVCEditPhotoItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5616D21A2654A00A053A8 /* QHVCEditPhotoItemCell.m */; };
+		9FC5639B21A2654B00A053A8 /* QHVCEditPhotoSelectedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5616E21A2654A00A053A8 /* QHVCEditPhotoSelectedCell.xib */; };
+		9FC5639C21A2654B00A053A8 /* QHVCEditPhotoItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5616F21A2654A00A053A8 /* QHVCEditPhotoItemCell.xib */; };
+		9FC5639D21A2654B00A053A8 /* QHVCEditSelectPhotoAlbumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5617121A2654A00A053A8 /* QHVCEditSelectPhotoAlbumVC.m */; };
+		9FC563A921A2654B00A053A8 /* QHVCEditFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5618A21A2654A00A053A8 /* QHVCEditFrameView.m */; };
+		9FC563AA21A2654B00A053A8 /* QHVCEditFrameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5618B21A2654A00A053A8 /* QHVCEditFrameCell.m */; };
+		9FC563AB21A2654B00A053A8 /* QHVCEditFrameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5618C21A2654A00A053A8 /* QHVCEditFrameCell.xib */; };
+		9FC563AC21A2654B00A053A8 /* QHVCEditFrameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5618D21A2654A00A053A8 /* QHVCEditFrameView.xib */; };
+		9FC563AD21A2654B00A053A8 /* QHVCEditCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5618E21A2654A00A053A8 /* QHVCEditCollectionCell.xib */; };
+		9FC563AE21A2654B00A053A8 /* QHVCEditCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5618F21A2654A00A053A8 /* QHVCEditCollectionCell.m */; };
+		9FC563AF21A2654B00A053A8 /* QHVCEditSetOutputParamsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5619121A2654A00A053A8 /* QHVCEditSetOutputParamsVC.m */; };
+		9FC563B021A2654B00A053A8 /* QHVCEditSetOutputParamsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5619221A2654A00A053A8 /* QHVCEditSetOutputParamsVC.xib */; };
+		9FC563B121A2654B00A053A8 /* QHVCEditMainFunctionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5619521A2654A00A053A8 /* QHVCEditMainFunctionCell.xib */; };
+		9FC563B221A2654B00A053A8 /* QHVCEditMainNavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5619621A2654A00A053A8 /* QHVCEditMainNavView.xib */; };
+		9FC563B321A2654B00A053A8 /* QHVCEditMainEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5619821A2654A00A053A8 /* QHVCEditMainEditVC.m */; };
+		9FC563B421A2654B00A053A8 /* QHVCEditMainContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5619921A2654A00A053A8 /* QHVCEditMainContentView.m */; };
+		9FC563B521A2654B00A053A8 /* QHVCEditMainEditVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5619B21A2654A00A053A8 /* QHVCEditMainEditVC.xib */; };
+		9FC563B621A2654B00A053A8 /* QHVCEditMainNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5619D21A2654A00A053A8 /* QHVCEditMainNavView.m */; };
+		9FC563B721A2654B00A053A8 /* QHVCEditMainFunctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5619F21A2654A00A053A8 /* QHVCEditMainFunctionCell.m */; };
+		9FC563B821A2654B00A053A8 /* QHVCEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC561A221A2654A00A053A8 /* QHVCEditVC.m */; };
+		9FC563B921A2654B00A053A8 /* QHVCEditVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC561A321A2654A00A053A8 /* QHVCEditVC.xib */; };
+		9FC563BA21A2654B00A053A8 /* QHVCEditTrackClipItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC561A521A2654A00A053A8 /* QHVCEditTrackClipItem.m */; };
+		9FC563BB21A2654B00A053A8 /* QHVCEditFunctionBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC561A921A2654A00A053A8 /* QHVCEditFunctionBaseView.m */; };
+		9FC563BC21A2654B00A053A8 /* QHVCEditBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC561AC21A2654A00A053A8 /* QHVCEditBaseVC.m */; };
+		9FC563BD21A2654B00A053A8 /* QHVCEditGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC561AD21A2654A00A053A8 /* QHVCEditGestureView.m */; };
+		9FC563BE21A2654B00A053A8 /* QHVCEditPlayerBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC561AF21A2654A00A053A8 /* QHVCEditPlayerBaseVC.m */; };
+		9FC563D421A2654B00A053A8 /* QHVCConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC561DE21A2654A00A053A8 /* QHVCConfig.m */; };
+		9FC563ED21A2654B00A053A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC5621621A2654A00A053A8 /* Assets.xcassets */; };
+		9FF7848021A2E89600DEB36F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A58324E01F39D86000A58C0C /* libc++.tbd */; };
+		9FF784D621A2ECFE00DEB36F /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FF784A321A2ECFD00DEB36F /* md5.cpp */; };
+		9FF784D821A2ECFE00DEB36F /* QHVCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF784A521A2ECFD00DEB36F /* QHVCTool.m */; };
+		9FF784DA21A2ECFE00DEB36F /* QHVCToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF784A821A2ECFD00DEB36F /* QHVCToast.m */; };
+		9FF784EC21A2ECFE00DEB36F /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF784B921A2ECFD00DEB36F /* UIViewAdditions.m */; };
+		9FF784EE21A2ECFE00DEB36F /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF784BA21A2ECFD00DEB36F /* UIView+Toast.m */; };
+		9FF784F021A2ECFE00DEB36F /* QHVCPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF784BD21A2ECFD00DEB36F /* QHVCPhotoManager.m */; };
+		9FF784F221A2ECFE00DEB36F /* QHVCSlowMotionVideoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF784C021A2ECFD00DEB36F /* QHVCSlowMotionVideoInfo.m */; };
+		9FF784F421A2ECFE00DEB36F /* QHVCPhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF784C221A2ECFD00DEB36F /* QHVCPhotoItem.m */; };
+		9FF7858C21A2EE4D00DEB36F /* QHVCEditTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF784FC21A2EE4C00DEB36F /* QHVCEditTransitionView.m */; };
+		9FF7858E21A2EE4D00DEB36F /* QHVCEditTrackClipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF784FD21A2EE4C00DEB36F /* QHVCEditTrackClipCell.m */; };
+		9FF7859021A2EE4D00DEB36F /* QHVCEditTransitionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF784FE21A2EE4C00DEB36F /* QHVCEditTransitionView.xib */; };
+		9FF7859221A2EE4D00DEB36F /* QHVCEditTrackClipCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7850121A2EE4C00DEB36F /* QHVCEditTrackClipCell.xib */; };
+		9FF7859421A2EE4D00DEB36F /* QHVCEditAlterSoundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7850321A2EE4C00DEB36F /* QHVCEditAlterSoundView.xib */; };
+		9FF7859821A2EE4D00DEB36F /* QHVCEditAlterSoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7850521A2EE4C00DEB36F /* QHVCEditAlterSoundView.m */; };
+		9FF7859A21A2EE4D00DEB36F /* QHVCEditFunctionList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7850821A2EE4C00DEB36F /* QHVCEditFunctionList.plist */; };
+		9FF7859C21A2EE4D00DEB36F /* QHVCEditSpeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7850B21A2EE4C00DEB36F /* QHVCEditSpeedView.m */; };
+		9FF7859E21A2EE4D00DEB36F /* QHVCEditSpeedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7850C21A2EE4C00DEB36F /* QHVCEditSpeedView.xib */; };
+		9FF785C021A2EE4D00DEB36F /* Forever.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7853021A2EE4C00DEB36F /* Forever.mp3 */; };
+		9FF785C221A2EE4D00DEB36F /* Disco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7853121A2EE4C00DEB36F /* Disco.mp3 */; };
+		9FF785C421A2EE4D00DEB36F /* QHVCEditStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7853421A2EE4C00DEB36F /* QHVCEditStickerView.m */; };
+		9FF785C621A2EE4D00DEB36F /* sticker1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7853621A2EE4C00DEB36F /* sticker1.png */; };
+		9FF785C821A2EE4D00DEB36F /* sticker3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7853721A2EE4C00DEB36F /* sticker3.png */; };
+		9FF785CA21A2EE4D00DEB36F /* sticker2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7853821A2EE4D00DEB36F /* sticker2.png */; };
+		9FF785CC21A2EE4D00DEB36F /* sticker6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7853921A2EE4D00DEB36F /* sticker6.png */; };
+		9FF785CE21A2EE4D00DEB36F /* sticker7.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7853A21A2EE4D00DEB36F /* sticker7.png */; };
+		9FF785D021A2EE4D00DEB36F /* sticker5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7853B21A2EE4D00DEB36F /* sticker5.png */; };
+		9FF785D221A2EE4D00DEB36F /* sticker4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7853C21A2EE4D00DEB36F /* sticker4.png */; };
+		9FF785D421A2EE4D00DEB36F /* QHVCEditStickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7853D21A2EE4D00DEB36F /* QHVCEditStickerView.xib */; };
+		9FF785D621A2EE4D00DEB36F /* QHVCEditStickerFunctionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7853F21A2EE4D00DEB36F /* QHVCEditStickerFunctionView.xib */; };
+		9FF785D821A2EE4D00DEB36F /* QHVCEditStickerItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7854121A2EE4D00DEB36F /* QHVCEditStickerItemView.m */; };
+		9FF785DA21A2EE4D00DEB36F /* QHVCEditStickerFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7854221A2EE4D00DEB36F /* QHVCEditStickerFunctionView.m */; };
+		9FF785DC21A2EE4D00DEB36F /* QHVCEditWatermarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7854421A2EE4D00DEB36F /* QHVCEditWatermarkView.m */; };
+		9FF785DE21A2EE4D00DEB36F /* QHVCEditWatermarkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7854521A2EE4D00DEB36F /* QHVCEditWatermarkView.xib */; };
+		9FF785E421A2EE4D00DEB36F /* QHVCEditSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7854E21A2EE4D00DEB36F /* QHVCEditSubtitleView.m */; };
+		9FF785E621A2EE4D00DEB36F /* QHVCEditSubtitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7854F21A2EE4D00DEB36F /* QHVCEditSubtitleView.xib */; };
+		9FF7860A21A2EE4D00DEB36F /* QHVCEditFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7856421A2EE4D00DEB36F /* QHVCEditFilterView.xib */; };
+		9FF7860C21A2EE4D00DEB36F /* QHVCEditFilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7856521A2EE4D00DEB36F /* QHVCEditFilterCell.xib */; };
+		9FF7860E21A2EE4D00DEB36F /* QHVCEditFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7856721A2EE4D00DEB36F /* QHVCEditFilterView.m */; };
+		9FF7861021A2EE4D00DEB36F /* QHVCEditFilterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7856821A2EE4D00DEB36F /* QHVCEditFilterCell.m */; };
+		9FF7861221A2EE4D00DEB36F /* QHVCEditOverlayFunctionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7856A21A2EE4D00DEB36F /* QHVCEditOverlayFunctionsView.xib */; };
+		9FF7861421A2EE4D00DEB36F /* QHVCEditOverlayFunctionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7856B21A2EE4D00DEB36F /* QHVCEditOverlayFunctionsView.m */; };
+		9FF7861C21A2EE4D00DEB36F /* QHVCEditOverlayVolumeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7857221A2EE4D00DEB36F /* QHVCEditOverlayVolumeView.xib */; };
+		9FF7861E21A2EE4D00DEB36F /* QHVCEditOverlaySpeedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7857521A2EE4D00DEB36F /* QHVCEditOverlaySpeedView.xib */; };
+		9FF7862221A2EE4D00DEB36F /* QHVCEditOverlaySpeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7857921A2EE4D00DEB36F /* QHVCEditOverlaySpeedView.m */; };
+		9FF7862621A2EE4D00DEB36F /* QHVCEditOverlayVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7857C21A2EE4D00DEB36F /* QHVCEditOverlayVolumeView.m */; };
+		9FF7862821A2EE4D00DEB36F /* QHVCEditOverlayItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7857D21A2EE4D00DEB36F /* QHVCEditOverlayItemView.m */; };
+		9FF7862A21A2EE4D00DEB36F /* QHVCEditTailorMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7857F21A2EE4D00DEB36F /* QHVCEditTailorMainView.m */; };
+		9FF7862C21A2EE4D00DEB36F /* QHVCEditTailorRateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7858121A2EE4D00DEB36F /* QHVCEditTailorRateVC.xib */; };
+		9FF7862E21A2EE4D00DEB36F /* QHVCEditTailorFormatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7858321A2EE4D00DEB36F /* QHVCEditTailorFormatView.m */; };
+		9FF7863021A2EE4D00DEB36F /* QHVCEditTailorFormatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7858421A2EE4D00DEB36F /* QHVCEditTailorFormatView.xib */; };
+		9FF7863221A2EE4D00DEB36F /* QHVCEditTailorMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7858521A2EE4D00DEB36F /* QHVCEditTailorMainView.xib */; };
+		9FF7863421A2EE4D00DEB36F /* QHVCEditTailorRateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7858621A2EE4D00DEB36F /* QHVCEditTailorRateVC.m */; };
+		9FF7863621A2EE4D00DEB36F /* QHVCEditTailorFillCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7858821A2EE4D00DEB36F /* QHVCEditTailorFillCell.xib */; };
+		9FF7863821A2EE4D00DEB36F /* QHVCEditTailorFillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7858A21A2EE4D00DEB36F /* QHVCEditTailorFillCell.m */; };
+		9FFB9C6B21BA12F60023F9CF /* test_video3.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB9C6821BA12F60023F9CF /* test_video3.MP4 */; };
+		9FFB9C6C21BA12F60023F9CF /* test_pic2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB9C6A21BA12F60023F9CF /* test_pic2.JPG */; };
+		9FFDD7FD21A3EC10003A9C5A /* Filters in Resources */ = {isa = PBXBuildFile; fileRef = 9FFDD7FB21A3EC10003A9C5A /* Filters */; };
+		9FFDD8F321A41EFE003A9C5A /* QHVCEditMediaEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFDD8EE21A41EFE003A9C5A /* QHVCEditMediaEditor.m */; };
+		9FFDD8F521A41EFE003A9C5A /* QHVCEditMediaEditorConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFDD8F121A41EFE003A9C5A /* QHVCEditMediaEditorConfig.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F10E71D21AC1A04004354C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F10E71521AC1A04004354C6 /* QHVCEditKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F38B38D1F6631270046D481;
+			remoteInfo = QHVCEditKit;
+		};
+		9F10E72821AC1A36004354C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F10E71521AC1A04004354C6 /* QHVCEditKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F38B38C1F6631270046D481;
+			remoteInfo = QHVCEditKit;
+		};
+		9F10E73A21AC1D85004354C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F10E71521AC1A04004354C6 /* QHVCEditKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F38B38C1F6631270046D481;
+			remoteInfo = QHVCEditKit;
+		};
+		9F93092F21B7C585009B3C9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F10E71521AC1A04004354C6 /* QHVCEditKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F93090721B77F9B009B3C9A;
+			remoteInfo = QHVCEditKitTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9F10E73C21AC1D85004354C6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9F10E73921AC1D85004354C6 /* QHVCEditKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D8875876D57D3FF41390A20 /* Pods-QHVideoCloudEdit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHVideoCloudEdit.release.xcconfig"; path = "Pods/Target Support Files/Pods-QHVideoCloudEdit/Pods-QHVideoCloudEdit.release.xcconfig"; sourceTree = "<group>"; };
+		2818B2C721BD41830000CD26 /* pic_rgba.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_rgba.PNG; sourceTree = "<group>"; };
+		28394B8A21B65E6200E2741E /* hevc.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = hevc.mp4; path = QHVideoCloudEdit/ServiceLogic/EditService/TestResources/hevc.mp4; sourceTree = SOURCE_ROOT; };
+		28394B8B21B65E6200E2741E /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = QHVideoCloudEdit/ServiceLogic/EditService/TestResources/music.mp3; sourceTree = SOURCE_ROOT; };
+		28394B8C21B65E6200E2741E /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic1.jpg; path = QHVideoCloudEdit/ServiceLogic/EditService/TestResources/pic1.jpg; sourceTree = SOURCE_ROOT; };
+		28394B8D21B65E6200E2741E /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video2.mp4; path = QHVideoCloudEdit/ServiceLogic/EditService/TestResources/video2.mp4; sourceTree = SOURCE_ROOT; };
+		28394B8E21B65E6200E2741E /* video1.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = video1.MOV; path = QHVideoCloudEdit/ServiceLogic/EditService/TestResources/video1.MOV; sourceTree = SOURCE_ROOT; };
+		28394B8F21B65E6200E2741E /* a.webm */ = {isa = PBXFileReference; lastKnownFileType = file; name = a.webm; path = QHVideoCloudEdit/ServiceLogic/EditService/TestResources/a.webm; sourceTree = SOURCE_ROOT; };
+		47D5B41490374F80EA66D053 /* Pods-QHVideoCloudEdit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHVideoCloudEdit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QHVideoCloudEdit/Pods-QHVideoCloudEdit.debug.xcconfig"; sourceTree = "<group>"; };
+		5788B20B17DC5753E9E2E392 /* libPods-QHVideoCloudEdit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QHVideoCloudEdit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F027CC421BD316600B65686 /* test_gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test_gif.gif; sourceTree = "<group>"; };
+		9F10E5B221AAF49B004354C6 /* QHVCEditSubtitleItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHVCEditSubtitleItemView.h; sourceTree = "<group>"; };
+		9F10E5B321AAF49B004354C6 /* QHVCEditSubtitleItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHVCEditSubtitleItemView.m; sourceTree = "<group>"; };
+		9F10E5B621AB0539004354C6 /* QHVCEditMusicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHVCEditMusicView.h; sourceTree = "<group>"; };
+		9F10E5B721AB0539004354C6 /* QHVCEditMusicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHVCEditMusicView.m; sourceTree = "<group>"; };
+		9F10E5BA21AB05BC004354C6 /* QHVCEditMusicView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QHVCEditMusicView.xib; sourceTree = "<group>"; };
+		9F10E69321AC0162004354C6 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		9F10E71521AC1A04004354C6 /* QHVCEditKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QHVCEditKit.xcodeproj; path = ../../../QHVCEditKit/QHVCEditKit.xcodeproj; sourceTree = "<group>"; };
+		9F9080CB21B5427D00210535 /* QHVCEditTransitionList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = QHVCEditTransitionList.plist; sourceTree = "<group>"; };
+		9F9308D021B6A73D009B3C9A /* test_lut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_lut.png; sourceTree = "<group>"; };
+		9F9308D221B6A873009B3C9A /* test_sticker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_sticker.png; sourceTree = "<group>"; };
+		9F93092D21B7C585009B3C9A /* test_heic.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_heic.HEIC; sourceTree = "<group>"; };
+		9FC0EB9621AFCF93006DFD76 /* QHVCEditMusicListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHVCEditMusicListView.h; sourceTree = "<group>"; };
+		9FC0EB9721AFCF93006DFD76 /* QHVCEditMusicListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHVCEditMusicListView.m; sourceTree = "<group>"; };
+		9FC0EB9921AFCFBB006DFD76 /* QHVCEditMusicListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QHVCEditMusicListView.xib; sourceTree = "<group>"; };
+		9FC55D1C21A25EEB00A053A8 /* QHVideoCloudEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHVideoCloudEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC55D2C21A25EED00A053A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC55D2D21A25EED00A053A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FC55E9521A2654900A053A8 /* QHNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHNavigationViewController.h; sourceTree = "<group>"; };
+		9FC55E9621A2654900A053A8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FC55E9721A2654900A053A8 /* QHVCTabTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCTabTableViewCell.h; sourceTree = "<group>"; };
+		9FC55E9821A2654900A053A8 /* QHRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHRootViewController.h; sourceTree = "<group>"; };
+		9FC55E9921A2654900A053A8 /* QHNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHNavigationViewController.m; sourceTree = "<group>"; };
+		9FC55E9A21A2654900A053A8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FC55E9B21A2654900A053A8 /* QHRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHRootViewController.m; sourceTree = "<group>"; };
+		9FC55E9C21A2654900A053A8 /* QHVCTabTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCTabTableViewCell.m; sourceTree = "<group>"; };
+		9FC55EA221A2654900A053A8 /* QHVideoCloudPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVideoCloudPrefix.pch; sourceTree = "<group>"; };
+		9FC55FA721A2654900A053A8 /* QHVCEditPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditPrefs.h; sourceTree = "<group>"; };
+		9FC55FA821A2654900A053A8 /* QHVCEditPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditPrefs.m; sourceTree = "<group>"; };
+		9FC560CC21A2654900A053A8 /* QHVCEditReorderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditReorderVC.m; sourceTree = "<group>"; };
+		9FC560CD21A2654900A053A8 /* QHVCEditReorderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditReorderVC.h; sourceTree = "<group>"; };
+		9FC560CF21A2654900A053A8 /* QHVCEditTrackClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditTrackClipView.m; sourceTree = "<group>"; };
+		9FC560D021A2654900A053A8 /* QHVCEditTrackClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditTrackClipView.h; sourceTree = "<group>"; };
+		9FC560D121A2654900A053A8 /* QHVCEditReorderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditReorderVC.xib; sourceTree = "<group>"; };
+		9FC560D321A2654900A053A8 /* QHVCEditProducerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditProducerVC.h; sourceTree = "<group>"; };
+		9FC560D421A2654900A053A8 /* QHVCEditProducerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditProducerVC.xib; sourceTree = "<group>"; };
+		9FC560D521A2654900A053A8 /* QHVCEditProducerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditProducerVC.m; sourceTree = "<group>"; };
+		9FC5616821A2654A00A053A8 /* QHVCEditSelectPhotoAlbumVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditSelectPhotoAlbumVC.h; sourceTree = "<group>"; };
+		9FC5616921A2654A00A053A8 /* QHVCEditSelectPhotoAlbumVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditSelectPhotoAlbumVC.xib; sourceTree = "<group>"; };
+		9FC5616B21A2654A00A053A8 /* QHVCEditPhotoItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditPhotoItemCell.h; sourceTree = "<group>"; };
+		9FC5616C21A2654A00A053A8 /* QHVCEditPhotoSelectedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditPhotoSelectedCell.m; sourceTree = "<group>"; };
+		9FC5616D21A2654A00A053A8 /* QHVCEditPhotoItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditPhotoItemCell.m; sourceTree = "<group>"; };
+		9FC5616E21A2654A00A053A8 /* QHVCEditPhotoSelectedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditPhotoSelectedCell.xib; sourceTree = "<group>"; };
+		9FC5616F21A2654A00A053A8 /* QHVCEditPhotoItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditPhotoItemCell.xib; sourceTree = "<group>"; };
+		9FC5617021A2654A00A053A8 /* QHVCEditPhotoSelectedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditPhotoSelectedCell.h; sourceTree = "<group>"; };
+		9FC5617121A2654A00A053A8 /* QHVCEditSelectPhotoAlbumVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditSelectPhotoAlbumVC.m; sourceTree = "<group>"; };
+		9FC5618721A2654A00A053A8 /* QHVCEditFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditFrameView.h; sourceTree = "<group>"; };
+		9FC5618821A2654A00A053A8 /* QHVCEditFrameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditFrameCell.h; sourceTree = "<group>"; };
+		9FC5618921A2654A00A053A8 /* QHVCEditCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditCollectionCell.h; sourceTree = "<group>"; };
+		9FC5618A21A2654A00A053A8 /* QHVCEditFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditFrameView.m; sourceTree = "<group>"; };
+		9FC5618B21A2654A00A053A8 /* QHVCEditFrameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditFrameCell.m; sourceTree = "<group>"; };
+		9FC5618C21A2654A00A053A8 /* QHVCEditFrameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditFrameCell.xib; sourceTree = "<group>"; };
+		9FC5618D21A2654A00A053A8 /* QHVCEditFrameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditFrameView.xib; sourceTree = "<group>"; };
+		9FC5618E21A2654A00A053A8 /* QHVCEditCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditCollectionCell.xib; sourceTree = "<group>"; };
+		9FC5618F21A2654A00A053A8 /* QHVCEditCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditCollectionCell.m; sourceTree = "<group>"; };
+		9FC5619121A2654A00A053A8 /* QHVCEditSetOutputParamsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditSetOutputParamsVC.m; sourceTree = "<group>"; };
+		9FC5619221A2654A00A053A8 /* QHVCEditSetOutputParamsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditSetOutputParamsVC.xib; sourceTree = "<group>"; };
+		9FC5619321A2654A00A053A8 /* QHVCEditSetOutputParamsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditSetOutputParamsVC.h; sourceTree = "<group>"; };
+		9FC5619521A2654A00A053A8 /* QHVCEditMainFunctionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditMainFunctionCell.xib; sourceTree = "<group>"; };
+		9FC5619621A2654A00A053A8 /* QHVCEditMainNavView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditMainNavView.xib; sourceTree = "<group>"; };
+		9FC5619721A2654A00A053A8 /* QHVCEditMainNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditMainNavView.h; sourceTree = "<group>"; };
+		9FC5619821A2654A00A053A8 /* QHVCEditMainEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditMainEditVC.m; sourceTree = "<group>"; };
+		9FC5619921A2654A00A053A8 /* QHVCEditMainContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditMainContentView.m; sourceTree = "<group>"; };
+		9FC5619A21A2654A00A053A8 /* QHVCEditMainFunctionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditMainFunctionCell.h; sourceTree = "<group>"; };
+		9FC5619B21A2654A00A053A8 /* QHVCEditMainEditVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditMainEditVC.xib; sourceTree = "<group>"; };
+		9FC5619C21A2654A00A053A8 /* QHVCEditMainEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditMainEditVC.h; sourceTree = "<group>"; };
+		9FC5619D21A2654A00A053A8 /* QHVCEditMainNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditMainNavView.m; sourceTree = "<group>"; };
+		9FC5619E21A2654A00A053A8 /* QHVCEditMainContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditMainContentView.h; sourceTree = "<group>"; };
+		9FC5619F21A2654A00A053A8 /* QHVCEditMainFunctionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditMainFunctionCell.m; sourceTree = "<group>"; };
+		9FC561A121A2654A00A053A8 /* QHVCEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditVC.h; sourceTree = "<group>"; };
+		9FC561A221A2654A00A053A8 /* QHVCEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditVC.m; sourceTree = "<group>"; };
+		9FC561A321A2654A00A053A8 /* QHVCEditVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditVC.xib; sourceTree = "<group>"; };
+		9FC561A521A2654A00A053A8 /* QHVCEditTrackClipItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditTrackClipItem.m; sourceTree = "<group>"; };
+		9FC561A621A2654A00A053A8 /* QHVCEditTrackClipItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditTrackClipItem.h; sourceTree = "<group>"; };
+		9FC561A821A2654A00A053A8 /* QHVCEditBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditBaseVC.h; sourceTree = "<group>"; };
+		9FC561A921A2654A00A053A8 /* QHVCEditFunctionBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditFunctionBaseView.m; sourceTree = "<group>"; };
+		9FC561AA21A2654A00A053A8 /* QHVCEditGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditGestureView.h; sourceTree = "<group>"; };
+		9FC561AB21A2654A00A053A8 /* QHVCEditPlayerBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditPlayerBaseVC.h; sourceTree = "<group>"; };
+		9FC561AC21A2654A00A053A8 /* QHVCEditBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditBaseVC.m; sourceTree = "<group>"; };
+		9FC561AD21A2654A00A053A8 /* QHVCEditGestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditGestureView.m; sourceTree = "<group>"; };
+		9FC561AE21A2654A00A053A8 /* QHVCEditFunctionBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditFunctionBaseView.h; sourceTree = "<group>"; };
+		9FC561AF21A2654A00A053A8 /* QHVCEditPlayerBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditPlayerBaseVC.m; sourceTree = "<group>"; };
+		9FC561DD21A2654A00A053A8 /* QHVCConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCConfig.h; sourceTree = "<group>"; };
+		9FC561DE21A2654A00A053A8 /* QHVCConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCConfig.m; sourceTree = "<group>"; };
+		9FC5621621A2654A00A053A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FF7839821A2CC8F00DEB36F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = "Info+Advanced.plist"; sourceTree = "<group>"; };
+		9FF784A321A2ECFD00DEB36F /* md5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
+		9FF784A421A2ECFD00DEB36F /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		9FF784A521A2ECFD00DEB36F /* QHVCTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCTool.m; sourceTree = "<group>"; };
+		9FF784A621A2ECFD00DEB36F /* QHVCTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCTool.h; sourceTree = "<group>"; };
+		9FF784A821A2ECFD00DEB36F /* QHVCToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCToast.m; sourceTree = "<group>"; };
+		9FF784A921A2ECFD00DEB36F /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		9FF784AA21A2ECFD00DEB36F /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		9FF784B821A2ECFD00DEB36F /* QHVCToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCToast.h; sourceTree = "<group>"; };
+		9FF784B921A2ECFD00DEB36F /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
+		9FF784BA21A2ECFD00DEB36F /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		9FF784BD21A2ECFD00DEB36F /* QHVCPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCPhotoManager.m; sourceTree = "<group>"; };
+		9FF784BE21A2ECFD00DEB36F /* QHVCPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCPhotoManager.h; sourceTree = "<group>"; };
+		9FF784C021A2ECFD00DEB36F /* QHVCSlowMotionVideoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCSlowMotionVideoInfo.m; sourceTree = "<group>"; };
+		9FF784C121A2ECFD00DEB36F /* QHVCPhotoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCPhotoItem.h; sourceTree = "<group>"; };
+		9FF784C221A2ECFD00DEB36F /* QHVCPhotoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCPhotoItem.m; sourceTree = "<group>"; };
+		9FF784C321A2ECFD00DEB36F /* QHVCSlowMotionVideoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCSlowMotionVideoInfo.h; sourceTree = "<group>"; };
+		9FF784FC21A2EE4C00DEB36F /* QHVCEditTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditTransitionView.m; sourceTree = "<group>"; };
+		9FF784FD21A2EE4C00DEB36F /* QHVCEditTrackClipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditTrackClipCell.m; sourceTree = "<group>"; };
+		9FF784FE21A2EE4C00DEB36F /* QHVCEditTransitionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditTransitionView.xib; sourceTree = "<group>"; };
+		9FF784FF21A2EE4C00DEB36F /* QHVCEditTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditTransitionView.h; sourceTree = "<group>"; };
+		9FF7850021A2EE4C00DEB36F /* QHVCEditTrackClipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditTrackClipCell.h; sourceTree = "<group>"; };
+		9FF7850121A2EE4C00DEB36F /* QHVCEditTrackClipCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditTrackClipCell.xib; sourceTree = "<group>"; };
+		9FF7850321A2EE4C00DEB36F /* QHVCEditAlterSoundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditAlterSoundView.xib; sourceTree = "<group>"; };
+		9FF7850521A2EE4C00DEB36F /* QHVCEditAlterSoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditAlterSoundView.m; sourceTree = "<group>"; };
+		9FF7850721A2EE4C00DEB36F /* QHVCEditAlterSoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditAlterSoundView.h; sourceTree = "<group>"; };
+		9FF7850821A2EE4C00DEB36F /* QHVCEditFunctionList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QHVCEditFunctionList.plist; sourceTree = "<group>"; };
+		9FF7850A21A2EE4C00DEB36F /* QHVCEditSpeedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditSpeedView.h; sourceTree = "<group>"; };
+		9FF7850B21A2EE4C00DEB36F /* QHVCEditSpeedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditSpeedView.m; sourceTree = "<group>"; };
+		9FF7850C21A2EE4C00DEB36F /* QHVCEditSpeedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditSpeedView.xib; sourceTree = "<group>"; };
+		9FF7853021A2EE4C00DEB36F /* Forever.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Forever.mp3; sourceTree = "<group>"; };
+		9FF7853121A2EE4C00DEB36F /* Disco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Disco.mp3; sourceTree = "<group>"; };
+		9FF7853321A2EE4C00DEB36F /* QHVCEditStickerItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditStickerItemView.h; sourceTree = "<group>"; };
+		9FF7853421A2EE4C00DEB36F /* QHVCEditStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditStickerView.m; sourceTree = "<group>"; };
+		9FF7853621A2EE4C00DEB36F /* sticker1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker1.png; sourceTree = "<group>"; };
+		9FF7853721A2EE4C00DEB36F /* sticker3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker3.png; sourceTree = "<group>"; };
+		9FF7853821A2EE4D00DEB36F /* sticker2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker2.png; sourceTree = "<group>"; };
+		9FF7853921A2EE4D00DEB36F /* sticker6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker6.png; sourceTree = "<group>"; };
+		9FF7853A21A2EE4D00DEB36F /* sticker7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker7.png; sourceTree = "<group>"; };
+		9FF7853B21A2EE4D00DEB36F /* sticker5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker5.png; sourceTree = "<group>"; };
+		9FF7853C21A2EE4D00DEB36F /* sticker4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker4.png; sourceTree = "<group>"; };
+		9FF7853D21A2EE4D00DEB36F /* QHVCEditStickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditStickerView.xib; sourceTree = "<group>"; };
+		9FF7853E21A2EE4D00DEB36F /* QHVCEditStickerFunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditStickerFunctionView.h; sourceTree = "<group>"; };
+		9FF7853F21A2EE4D00DEB36F /* QHVCEditStickerFunctionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditStickerFunctionView.xib; sourceTree = "<group>"; };
+		9FF7854021A2EE4D00DEB36F /* QHVCEditStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditStickerView.h; sourceTree = "<group>"; };
+		9FF7854121A2EE4D00DEB36F /* QHVCEditStickerItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditStickerItemView.m; sourceTree = "<group>"; };
+		9FF7854221A2EE4D00DEB36F /* QHVCEditStickerFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditStickerFunctionView.m; sourceTree = "<group>"; };
+		9FF7854421A2EE4D00DEB36F /* QHVCEditWatermarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditWatermarkView.m; sourceTree = "<group>"; };
+		9FF7854521A2EE4D00DEB36F /* QHVCEditWatermarkView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditWatermarkView.xib; sourceTree = "<group>"; };
+		9FF7854621A2EE4D00DEB36F /* QHVCEditWatermarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditWatermarkView.h; sourceTree = "<group>"; };
+		9FF7854921A2EE4D00DEB36F /* QHVCEditSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditSubtitleView.h; sourceTree = "<group>"; };
+		9FF7854E21A2EE4D00DEB36F /* QHVCEditSubtitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditSubtitleView.m; sourceTree = "<group>"; };
+		9FF7854F21A2EE4D00DEB36F /* QHVCEditSubtitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditSubtitleView.xib; sourceTree = "<group>"; };
+		9FF7855121A2EE4D00DEB36F /* QHVCEditFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditFilterView.h; sourceTree = "<group>"; };
+		9FF7856421A2EE4D00DEB36F /* QHVCEditFilterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditFilterView.xib; sourceTree = "<group>"; };
+		9FF7856521A2EE4D00DEB36F /* QHVCEditFilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditFilterCell.xib; sourceTree = "<group>"; };
+		9FF7856621A2EE4D00DEB36F /* QHVCEditFilterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditFilterCell.h; sourceTree = "<group>"; };
+		9FF7856721A2EE4D00DEB36F /* QHVCEditFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditFilterView.m; sourceTree = "<group>"; };
+		9FF7856821A2EE4D00DEB36F /* QHVCEditFilterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditFilterCell.m; sourceTree = "<group>"; };
+		9FF7856A21A2EE4D00DEB36F /* QHVCEditOverlayFunctionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditOverlayFunctionsView.xib; sourceTree = "<group>"; };
+		9FF7856B21A2EE4D00DEB36F /* QHVCEditOverlayFunctionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditOverlayFunctionsView.m; sourceTree = "<group>"; };
+		9FF7856C21A2EE4D00DEB36F /* QHVCEditOverlayItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditOverlayItemView.h; sourceTree = "<group>"; };
+		9FF7856D21A2EE4D00DEB36F /* QHVCEditOverlayFunctionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditOverlayFunctionsView.h; sourceTree = "<group>"; };
+		9FF7857221A2EE4D00DEB36F /* QHVCEditOverlayVolumeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditOverlayVolumeView.xib; sourceTree = "<group>"; };
+		9FF7857321A2EE4D00DEB36F /* QHVCEditOverlaySpeedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditOverlaySpeedView.h; sourceTree = "<group>"; };
+		9FF7857421A2EE4D00DEB36F /* QHVCEditOverlayVolumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditOverlayVolumeView.h; sourceTree = "<group>"; };
+		9FF7857521A2EE4D00DEB36F /* QHVCEditOverlaySpeedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditOverlaySpeedView.xib; sourceTree = "<group>"; };
+		9FF7857921A2EE4D00DEB36F /* QHVCEditOverlaySpeedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditOverlaySpeedView.m; sourceTree = "<group>"; };
+		9FF7857C21A2EE4D00DEB36F /* QHVCEditOverlayVolumeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditOverlayVolumeView.m; sourceTree = "<group>"; };
+		9FF7857D21A2EE4D00DEB36F /* QHVCEditOverlayItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditOverlayItemView.m; sourceTree = "<group>"; };
+		9FF7857F21A2EE4D00DEB36F /* QHVCEditTailorMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditTailorMainView.m; sourceTree = "<group>"; };
+		9FF7858021A2EE4D00DEB36F /* QHVCEditTailorRateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditTailorRateVC.h; sourceTree = "<group>"; };
+		9FF7858121A2EE4D00DEB36F /* QHVCEditTailorRateVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditTailorRateVC.xib; sourceTree = "<group>"; };
+		9FF7858221A2EE4D00DEB36F /* QHVCEditTailorFillCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditTailorFillCell.h; sourceTree = "<group>"; };
+		9FF7858321A2EE4D00DEB36F /* QHVCEditTailorFormatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditTailorFormatView.m; sourceTree = "<group>"; };
+		9FF7858421A2EE4D00DEB36F /* QHVCEditTailorFormatView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditTailorFormatView.xib; sourceTree = "<group>"; };
+		9FF7858521A2EE4D00DEB36F /* QHVCEditTailorMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditTailorMainView.xib; sourceTree = "<group>"; };
+		9FF7858621A2EE4D00DEB36F /* QHVCEditTailorRateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditTailorRateVC.m; sourceTree = "<group>"; };
+		9FF7858721A2EE4D00DEB36F /* QHVCEditTailorMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditTailorMainView.h; sourceTree = "<group>"; };
+		9FF7858821A2EE4D00DEB36F /* QHVCEditTailorFillCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHVCEditTailorFillCell.xib; sourceTree = "<group>"; };
+		9FF7858921A2EE4D00DEB36F /* QHVCEditTailorFormatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditTailorFormatView.h; sourceTree = "<group>"; };
+		9FF7858A21A2EE4D00DEB36F /* QHVCEditTailorFillCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditTailorFillCell.m; sourceTree = "<group>"; };
+		9FFB9C6821BA12F60023F9CF /* test_video3.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_video3.MP4; sourceTree = "<group>"; };
+		9FFB9C6A21BA12F60023F9CF /* test_pic2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_pic2.JPG; sourceTree = "<group>"; };
+		9FFDD7FB21A3EC10003A9C5A /* Filters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Filters; sourceTree = "<group>"; };
+		9FFDD8EE21A41EFE003A9C5A /* QHVCEditMediaEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditMediaEditor.m; sourceTree = "<group>"; };
+		9FFDD8EF21A41EFE003A9C5A /* QHVCEditMediaEditorConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditMediaEditorConfig.h; sourceTree = "<group>"; };
+		9FFDD8F021A41EFE003A9C5A /* QHVCEditMediaEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHVCEditMediaEditor.h; sourceTree = "<group>"; };
+		9FFDD8F121A41EFE003A9C5A /* QHVCEditMediaEditorConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHVCEditMediaEditorConfig.m; sourceTree = "<group>"; };
+		A57F69EE204FBDD400D7FA82 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		A57F69F0204FBDE600D7FA82 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A57F69F2204FBE0B00D7FA82 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A57F69F4204FBE4600D7FA82 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A58324E01F39D86000A58C0C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A5F464171F39A52500B82456 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		A5F464191F39A53E00B82456 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BB8DC97E1F0A66DD004B63CC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BBF645AE2057C539007D8D69 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		BBF645B02057C54A007D8D69 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BBF645B22057C55A007D8D69 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FC55D1921A25EEB00A053A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F10E72A21AC1A41004354C6 /* QHVCEditKit.framework in Frameworks */,
+				9FF7848021A2E89600DEB36F /* libc++.tbd in Frameworks */,
+				1F1A252D993FD96E306B01B6 /* libPods-QHVideoCloudEdit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C322C6363F2DFBA82CF354B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47D5B41490374F80EA66D053 /* Pods-QHVideoCloudEdit.debug.xcconfig */,
+				1D8875876D57D3FF41390A20 /* Pods-QHVideoCloudEdit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28394B8921B65E4B00E2741E /* TestResources */ = {
+			isa = PBXGroup;
+			children = (
+				2818B2C721BD41830000CD26 /* pic_rgba.PNG */,
+				9F027CC421BD316600B65686 /* test_gif.gif */,
+				9FFB9C6A21BA12F60023F9CF /* test_pic2.JPG */,
+				9FFB9C6821BA12F60023F9CF /* test_video3.MP4 */,
+				9F93092D21B7C585009B3C9A /* test_heic.HEIC */,
+				9F9308D221B6A873009B3C9A /* test_sticker.png */,
+				9F9308D021B6A73D009B3C9A /* test_lut.png */,
+				28394B8F21B65E6200E2741E /* a.webm */,
+				28394B8A21B65E6200E2741E /* hevc.mp4 */,
+				28394B8B21B65E6200E2741E /* music.mp3 */,
+				28394B8C21B65E6200E2741E /* pic1.jpg */,
+				28394B8E21B65E6200E2741E /* video1.MOV */,
+				28394B8D21B65E6200E2741E /* video2.mp4 */,
+			);
+			path = TestResources;
+			sourceTree = "<group>";
+		};
+		9F10E69221AC0162004354C6 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				9F10E71521AC1A04004354C6 /* QHVCEditKit.xcodeproj */,
+				9F10E69321AC0162004354C6 /* readme.txt */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		9F10E71621AC1A04004354C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F10E71E21AC1A04004354C6 /* QHVCEditKit.framework */,
+				9F93093021B7C585009B3C9A /* QHVCEditKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FC55D1D21A25EEB00A053A8 /* QHVideoCloudEdit */ = {
+			isa = PBXGroup;
+			children = (
+				9FC55EA221A2654900A053A8 /* QHVideoCloudPrefix.pch */,
+				9FF7849021A2ECFD00DEB36F /* UtilsSet */,
+				9FC561DC21A2654A00A053A8 /* Config */,
+				9FC55E9421A2654900A053A8 /* Core */,
+				9FC55EAE21A2654900A053A8 /* ServiceLogic */,
+				9F10E69221AC0162004354C6 /* Vendor */,
+				9FC561D721A2654A00A053A8 /* Base.lproj */,
+				9FC5621621A2654A00A053A8 /* Assets.xcassets */,
+			);
+			path = QHVideoCloudEdit;
+			sourceTree = "<group>";
+		};
+		9FC55E9421A2654900A053A8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9FC55E9621A2654900A053A8 /* AppDelegate.h */,
+				9FC55E9A21A2654900A053A8 /* AppDelegate.m */,
+				9FC55E9521A2654900A053A8 /* QHNavigationViewController.h */,
+				9FC55E9921A2654900A053A8 /* QHNavigationViewController.m */,
+				9FC55E9821A2654900A053A8 /* QHRootViewController.h */,
+				9FC55E9B21A2654900A053A8 /* QHRootViewController.m */,
+				9FC55E9721A2654900A053A8 /* QHVCTabTableViewCell.h */,
+				9FC55E9C21A2654900A053A8 /* QHVCTabTableViewCell.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9FC55EAE21A2654900A053A8 /* ServiceLogic */ = {
+			isa = PBXGroup;
+			children = (
+				9FC55FA521A2654900A053A8 /* EditService */,
+			);
+			path = ServiceLogic;
+			sourceTree = "<group>";
+		};
+		9FC55FA521A2654900A053A8 /* EditService */ = {
+			isa = PBXGroup;
+			children = (
+				28394B8921B65E4B00E2741E /* TestResources */,
+				9FC55FA621A2654900A053A8 /* Prefs */,
+				9FFDD8ED21A41EFE003A9C5A /* Editor */,
+				9FC560C921A2654900A053A8 /* Modules */,
+			);
+			path = EditService;
+			sourceTree = "<group>";
+		};
+		9FC55FA621A2654900A053A8 /* Prefs */ = {
+			isa = PBXGroup;
+			children = (
+				9FC55FA721A2654900A053A8 /* QHVCEditPrefs.h */,
+				9FC55FA821A2654900A053A8 /* QHVCEditPrefs.m */,
+			);
+			path = Prefs;
+			sourceTree = "<group>";
+		};
+		9FC560C921A2654900A053A8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9FC561A421A2654A00A053A8 /* Model */,
+				9FC561A721A2654A00A053A8 /* Base */,
+				9FC560CA21A2654900A053A8 /* Controller */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9FC560CA21A2654900A053A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5618621A2654A00A053A8 /* View */,
+				9FC561A021A2654A00A053A8 /* Entrance */,
+				9FC5616721A2654A00A053A8 /* SelectPhotoAlbum */,
+				9FC5619021A2654A00A053A8 /* SetOutputParams */,
+				9FC560CB21A2654900A053A8 /* Reorder */,
+				9FC5619421A2654A00A053A8 /* MainEdit */,
+				9FC560D221A2654900A053A8 /* Producer */,
+				9FF784FA21A2EE4C00DEB36F /* FounctionVCs */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9FC560CB21A2654900A053A8 /* Reorder */ = {
+			isa = PBXGroup;
+			children = (
+				9FC560CD21A2654900A053A8 /* QHVCEditReorderVC.h */,
+				9FC560CC21A2654900A053A8 /* QHVCEditReorderVC.m */,
+				9FC560D121A2654900A053A8 /* QHVCEditReorderVC.xib */,
+				9FC560D021A2654900A053A8 /* QHVCEditTrackClipView.h */,
+				9FC560CF21A2654900A053A8 /* QHVCEditTrackClipView.m */,
+			);
+			path = Reorder;
+			sourceTree = "<group>";
+		};
+		9FC560D221A2654900A053A8 /* Producer */ = {
+			isa = PBXGroup;
+			children = (
+				9FC560D321A2654900A053A8 /* QHVCEditProducerVC.h */,
+				9FC560D521A2654900A053A8 /* QHVCEditProducerVC.m */,
+				9FC560D421A2654900A053A8 /* QHVCEditProducerVC.xib */,
+			);
+			path = Producer;
+			sourceTree = "<group>";
+		};
+		9FC5616721A2654A00A053A8 /* SelectPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5616A21A2654A00A053A8 /* Cell */,
+				9FC5616821A2654A00A053A8 /* QHVCEditSelectPhotoAlbumVC.h */,
+				9FC5617121A2654A00A053A8 /* QHVCEditSelectPhotoAlbumVC.m */,
+				9FC5616921A2654A00A053A8 /* QHVCEditSelectPhotoAlbumVC.xib */,
+			);
+			path = SelectPhotoAlbum;
+			sourceTree = "<group>";
+		};
+		9FC5616A21A2654A00A053A8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5616B21A2654A00A053A8 /* QHVCEditPhotoItemCell.h */,
+				9FC5616D21A2654A00A053A8 /* QHVCEditPhotoItemCell.m */,
+				9FC5616F21A2654A00A053A8 /* QHVCEditPhotoItemCell.xib */,
+				9FC5617021A2654A00A053A8 /* QHVCEditPhotoSelectedCell.h */,
+				9FC5616C21A2654A00A053A8 /* QHVCEditPhotoSelectedCell.m */,
+				9FC5616E21A2654A00A053A8 /* QHVCEditPhotoSelectedCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9FC5618621A2654A00A053A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5618921A2654A00A053A8 /* QHVCEditCollectionCell.h */,
+				9FC5618F21A2654A00A053A8 /* QHVCEditCollectionCell.m */,
+				9FC5618E21A2654A00A053A8 /* QHVCEditCollectionCell.xib */,
+				9FC5618821A2654A00A053A8 /* QHVCEditFrameCell.h */,
+				9FC5618B21A2654A00A053A8 /* QHVCEditFrameCell.m */,
+				9FC5618C21A2654A00A053A8 /* QHVCEditFrameCell.xib */,
+				9FC5618721A2654A00A053A8 /* QHVCEditFrameView.h */,
+				9FC5618A21A2654A00A053A8 /* QHVCEditFrameView.m */,
+				9FC5618D21A2654A00A053A8 /* QHVCEditFrameView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FC5619021A2654A00A053A8 /* SetOutputParams */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5619321A2654A00A053A8 /* QHVCEditSetOutputParamsVC.h */,
+				9FC5619121A2654A00A053A8 /* QHVCEditSetOutputParamsVC.m */,
+				9FC5619221A2654A00A053A8 /* QHVCEditSetOutputParamsVC.xib */,
+			);
+			path = SetOutputParams;
+			sourceTree = "<group>";
+		};
+		9FC5619421A2654A00A053A8 /* MainEdit */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5619E21A2654A00A053A8 /* QHVCEditMainContentView.h */,
+				9FC5619921A2654A00A053A8 /* QHVCEditMainContentView.m */,
+				9FC5619C21A2654A00A053A8 /* QHVCEditMainEditVC.h */,
+				9FC5619821A2654A00A053A8 /* QHVCEditMainEditVC.m */,
+				9FC5619B21A2654A00A053A8 /* QHVCEditMainEditVC.xib */,
+				9FC5619A21A2654A00A053A8 /* QHVCEditMainFunctionCell.h */,
+				9FC5619F21A2654A00A053A8 /* QHVCEditMainFunctionCell.m */,
+				9FC5619521A2654A00A053A8 /* QHVCEditMainFunctionCell.xib */,
+				9FC5619721A2654A00A053A8 /* QHVCEditMainNavView.h */,
+				9FC5619D21A2654A00A053A8 /* QHVCEditMainNavView.m */,
+				9FC5619621A2654A00A053A8 /* QHVCEditMainNavView.xib */,
+			);
+			path = MainEdit;
+			sourceTree = "<group>";
+		};
+		9FC561A021A2654A00A053A8 /* Entrance */ = {
+			isa = PBXGroup;
+			children = (
+				9FC561A121A2654A00A053A8 /* QHVCEditVC.h */,
+				9FC561A221A2654A00A053A8 /* QHVCEditVC.m */,
+				9FC561A321A2654A00A053A8 /* QHVCEditVC.xib */,
+			);
+			path = Entrance;
+			sourceTree = "<group>";
+		};
+		9FC561A421A2654A00A053A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FC561A621A2654A00A053A8 /* QHVCEditTrackClipItem.h */,
+				9FC561A521A2654A00A053A8 /* QHVCEditTrackClipItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FC561A721A2654A00A053A8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9FC561A821A2654A00A053A8 /* QHVCEditBaseVC.h */,
+				9FC561AC21A2654A00A053A8 /* QHVCEditBaseVC.m */,
+				9FC561AE21A2654A00A053A8 /* QHVCEditFunctionBaseView.h */,
+				9FC561A921A2654A00A053A8 /* QHVCEditFunctionBaseView.m */,
+				9FC561AA21A2654A00A053A8 /* QHVCEditGestureView.h */,
+				9FC561AD21A2654A00A053A8 /* QHVCEditGestureView.m */,
+				9FC561AB21A2654A00A053A8 /* QHVCEditPlayerBaseVC.h */,
+				9FC561AF21A2654A00A053A8 /* QHVCEditPlayerBaseVC.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9FC561D721A2654A00A053A8 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				9FF7839721A2CC8F00DEB36F /* Info+Advanced.plist */,
+				9FC55D2C21A25EED00A053A8 /* Info.plist */,
+				9FC55D2D21A25EED00A053A8 /* main.m */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		9FC561DC21A2654A00A053A8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9FC561DD21A2654A00A053A8 /* QHVCConfig.h */,
+				9FC561DE21A2654A00A053A8 /* QHVCConfig.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		9FF7849021A2ECFD00DEB36F /* UtilsSet */ = {
+			isa = PBXGroup;
+			children = (
+				9FF784A221A2ECFD00DEB36F /* Utils */,
+				9FF784A721A2ECFD00DEB36F /* View */,
+				9FF784BB21A2ECFD00DEB36F /* PhotoAlbum */,
+			);
+			path = UtilsSet;
+			sourceTree = "<group>";
+		};
+		9FF784A221A2ECFD00DEB36F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9FF784A321A2ECFD00DEB36F /* md5.cpp */,
+				9FF784A421A2ECFD00DEB36F /* md5.h */,
+				9FF784A521A2ECFD00DEB36F /* QHVCTool.m */,
+				9FF784A621A2ECFD00DEB36F /* QHVCTool.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9FF784A721A2ECFD00DEB36F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FF784B821A2ECFD00DEB36F /* QHVCToast.h */,
+				9FF784A821A2ECFD00DEB36F /* QHVCToast.m */,
+				9FF784A921A2ECFD00DEB36F /* UIView+Toast.h */,
+				9FF784BA21A2ECFD00DEB36F /* UIView+Toast.m */,
+				9FF784AA21A2ECFD00DEB36F /* UIViewAdditions.h */,
+				9FF784B921A2ECFD00DEB36F /* UIViewAdditions.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FF784BB21A2ECFD00DEB36F /* PhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				9FF784BC21A2ECFD00DEB36F /* Manager */,
+				9FF784BF21A2ECFD00DEB36F /* Model */,
+			);
+			path = PhotoAlbum;
+			sourceTree = "<group>";
+		};
+		9FF784BC21A2ECFD00DEB36F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9FF784BE21A2ECFD00DEB36F /* QHVCPhotoManager.h */,
+				9FF784BD21A2ECFD00DEB36F /* QHVCPhotoManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		9FF784BF21A2ECFD00DEB36F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FF784C121A2ECFD00DEB36F /* QHVCPhotoItem.h */,
+				9FF784C221A2ECFD00DEB36F /* QHVCPhotoItem.m */,
+				9FF784C321A2ECFD00DEB36F /* QHVCSlowMotionVideoInfo.h */,
+				9FF784C021A2ECFD00DEB36F /* QHVCSlowMotionVideoInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FF784FA21A2EE4C00DEB36F /* FounctionVCs */ = {
+			isa = PBXGroup;
+			children = (
+				9FF7850821A2EE4C00DEB36F /* QHVCEditFunctionList.plist */,
+				9FF784FB21A2EE4C00DEB36F /* Transition */,
+				9FF7850221A2EE4C00DEB36F /* AlterSound */,
+				9FF7850921A2EE4C00DEB36F /* Speed */,
+				9FF7850D21A2EE4C00DEB36F /* BgMusic */,
+				9FF7853221A2EE4C00DEB36F /* Sticker */,
+				9FF7854321A2EE4D00DEB36F /* Watermark */,
+				9FF7854721A2EE4D00DEB36F /* Subtitle */,
+				9FF7855021A2EE4D00DEB36F /* Filter */,
+				9FF7856921A2EE4D00DEB36F /* Overlay */,
+				9FF7857E21A2EE4D00DEB36F /* Matrix */,
+			);
+			path = FounctionVCs;
+			sourceTree = "<group>";
+		};
+		9FF784FB21A2EE4C00DEB36F /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				9F9080CB21B5427D00210535 /* QHVCEditTransitionList.plist */,
+				9FF7850021A2EE4C00DEB36F /* QHVCEditTrackClipCell.h */,
+				9FF784FD21A2EE4C00DEB36F /* QHVCEditTrackClipCell.m */,
+				9FF7850121A2EE4C00DEB36F /* QHVCEditTrackClipCell.xib */,
+				9FF784FF21A2EE4C00DEB36F /* QHVCEditTransitionView.h */,
+				9FF784FC21A2EE4C00DEB36F /* QHVCEditTransitionView.m */,
+				9FF784FE21A2EE4C00DEB36F /* QHVCEditTransitionView.xib */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		9FF7850221A2EE4C00DEB36F /* AlterSound */ = {
+			isa = PBXGroup;
+			children = (
+				9FF7850721A2EE4C00DEB36F /* QHVCEditAlterSoundView.h */,
+				9FF7850521A2EE4C00DEB36F /* QHVCEditAlterSoundView.m */,
+				9FF7850321A2EE4C00DEB36F /* QHVCEditAlterSoundView.xib */,
+			);
+			path = AlterSound;
+			sourceTree = "<group>";
+		};
+		9FF7850921A2EE4C00DEB36F /* Speed */ = {
+			isa = PBXGroup;
+			children = (
+				9FF7850A21A2EE4C00DEB36F /* QHVCEditSpeedView.h */,
+				9FF7850B21A2EE4C00DEB36F /* QHVCEditSpeedView.m */,
+				9FF7850C21A2EE4C00DEB36F /* QHVCEditSpeedView.xib */,
+			);
+			path = Speed;
+			sourceTree = "<group>";
+		};
+		9FF7850D21A2EE4C00DEB36F /* BgMusic */ = {
+			isa = PBXGroup;
+			children = (
+				9FF7852F21A2EE4C00DEB36F /* Resource */,
+				9F10E5B621AB0539004354C6 /* QHVCEditMusicView.h */,
+				9F10E5B721AB0539004354C6 /* QHVCEditMusicView.m */,
+				9F10E5BA21AB05BC004354C6 /* QHVCEditMusicView.xib */,
+				9FC0EB9621AFCF93006DFD76 /* QHVCEditMusicListView.h */,
+				9FC0EB9721AFCF93006DFD76 /* QHVCEditMusicListView.m */,
+				9FC0EB9921AFCFBB006DFD76 /* QHVCEditMusicListView.xib */,
+			);
+			path = BgMusic;
+			sourceTree = "<group>";
+		};
+		9FF7852F21A2EE4C00DEB36F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9FF7853021A2EE4C00DEB36F /* Forever.mp3 */,
+				9FF7853121A2EE4C00DEB36F /* Disco.mp3 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9FF7853221A2EE4C00DEB36F /* Sticker */ = {
+			isa = PBXGroup;
+			children = (
+				9FF7853521A2EE4C00DEB36F /* Stickers */,
+				9FF7853E21A2EE4D00DEB36F /* QHVCEditStickerFunctionView.h */,
+				9FF7854221A2EE4D00DEB36F /* QHVCEditStickerFunctionView.m */,
+				9FF7853F21A2EE4D00DEB36F /* QHVCEditStickerFunctionView.xib */,
+				9FF7853321A2EE4C00DEB36F /* QHVCEditStickerItemView.h */,
+				9FF7854121A2EE4D00DEB36F /* QHVCEditStickerItemView.m */,
+				9FF7854021A2EE4D00DEB36F /* QHVCEditStickerView.h */,
+				9FF7853421A2EE4C00DEB36F /* QHVCEditStickerView.m */,
+				9FF7853D21A2EE4D00DEB36F /* QHVCEditStickerView.xib */,
+			);
+			path = Sticker;
+			sourceTree = "<group>";
+		};
+		9FF7853521A2EE4C00DEB36F /* Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				9FF7853621A2EE4C00DEB36F /* sticker1.png */,
+				9FF7853721A2EE4C00DEB36F /* sticker3.png */,
+				9FF7853821A2EE4D00DEB36F /* sticker2.png */,
+				9FF7853921A2EE4D00DEB36F /* sticker6.png */,
+				9FF7853A21A2EE4D00DEB36F /* sticker7.png */,
+				9FF7853B21A2EE4D00DEB36F /* sticker5.png */,
+				9FF7853C21A2EE4D00DEB36F /* sticker4.png */,
+			);
+			path = Stickers;
+			sourceTree = "<group>";
+		};
+		9FF7854321A2EE4D00DEB36F /* Watermark */ = {
+			isa = PBXGroup;
+			children = (
+				9FF7854621A2EE4D00DEB36F /* QHVCEditWatermarkView.h */,
+				9FF7854421A2EE4D00DEB36F /* QHVCEditWatermarkView.m */,
+				9FF7854521A2EE4D00DEB36F /* QHVCEditWatermarkView.xib */,
+			);
+			path = Watermark;
+			sourceTree = "<group>";
+		};
+		9FF7854721A2EE4D00DEB36F /* Subtitle */ = {
+			isa = PBXGroup;
+			children = (
+				9FF7854921A2EE4D00DEB36F /* QHVCEditSubtitleView.h */,
+				9FF7854E21A2EE4D00DEB36F /* QHVCEditSubtitleView.m */,
+				9FF7854F21A2EE4D00DEB36F /* QHVCEditSubtitleView.xib */,
+				9F10E5B221AAF49B004354C6 /* QHVCEditSubtitleItemView.h */,
+				9F10E5B321AAF49B004354C6 /* QHVCEditSubtitleItemView.m */,
+			);
+			path = Subtitle;
+			sourceTree = "<group>";
+		};
+		9FF7855021A2EE4D00DEB36F /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				9FFDD7FB21A3EC10003A9C5A /* Filters */,
+				9FF7856621A2EE4D00DEB36F /* QHVCEditFilterCell.h */,
+				9FF7856821A2EE4D00DEB36F /* QHVCEditFilterCell.m */,
+				9FF7856521A2EE4D00DEB36F /* QHVCEditFilterCell.xib */,
+				9FF7855121A2EE4D00DEB36F /* QHVCEditFilterView.h */,
+				9FF7856721A2EE4D00DEB36F /* QHVCEditFilterView.m */,
+				9FF7856421A2EE4D00DEB36F /* QHVCEditFilterView.xib */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		9FF7856921A2EE4D00DEB36F /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				9FF7856E21A2EE4D00DEB36F /* FunctionsView */,
+				9FF7856D21A2EE4D00DEB36F /* QHVCEditOverlayFunctionsView.h */,
+				9FF7856B21A2EE4D00DEB36F /* QHVCEditOverlayFunctionsView.m */,
+				9FF7856A21A2EE4D00DEB36F /* QHVCEditOverlayFunctionsView.xib */,
+				9FF7856C21A2EE4D00DEB36F /* QHVCEditOverlayItemView.h */,
+				9FF7857D21A2EE4D00DEB36F /* QHVCEditOverlayItemView.m */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		9FF7856E21A2EE4D00DEB36F /* FunctionsView */ = {
+			isa = PBXGroup;
+			children = (
+				9FF7857321A2EE4D00DEB36F /* QHVCEditOverlaySpeedView.h */,
+				9FF7857921A2EE4D00DEB36F /* QHVCEditOverlaySpeedView.m */,
+				9FF7857521A2EE4D00DEB36F /* QHVCEditOverlaySpeedView.xib */,
+				9FF7857421A2EE4D00DEB36F /* QHVCEditOverlayVolumeView.h */,
+				9FF7857C21A2EE4D00DEB36F /* QHVCEditOverlayVolumeView.m */,
+				9FF7857221A2EE4D00DEB36F /* QHVCEditOverlayVolumeView.xib */,
+			);
+			path = FunctionsView;
+			sourceTree = "<group>";
+		};
+		9FF7857E21A2EE4D00DEB36F /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				9FF7858221A2EE4D00DEB36F /* QHVCEditTailorFillCell.h */,
+				9FF7858A21A2EE4D00DEB36F /* QHVCEditTailorFillCell.m */,
+				9FF7858821A2EE4D00DEB36F /* QHVCEditTailorFillCell.xib */,
+				9FF7858921A2EE4D00DEB36F /* QHVCEditTailorFormatView.h */,
+				9FF7858321A2EE4D00DEB36F /* QHVCEditTailorFormatView.m */,
+				9FF7858421A2EE4D00DEB36F /* QHVCEditTailorFormatView.xib */,
+				9FF7858721A2EE4D00DEB36F /* QHVCEditTailorMainView.h */,
+				9FF7857F21A2EE4D00DEB36F /* QHVCEditTailorMainView.m */,
+				9FF7858521A2EE4D00DEB36F /* QHVCEditTailorMainView.xib */,
+				9FF7858021A2EE4D00DEB36F /* QHVCEditTailorRateVC.h */,
+				9FF7858621A2EE4D00DEB36F /* QHVCEditTailorRateVC.m */,
+				9FF7858121A2EE4D00DEB36F /* QHVCEditTailorRateVC.xib */,
+			);
+			path = Matrix;
+			sourceTree = "<group>";
+		};
+		9FFDD8ED21A41EFE003A9C5A /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				9FFDD8F021A41EFE003A9C5A /* QHVCEditMediaEditor.h */,
+				9FFDD8EE21A41EFE003A9C5A /* QHVCEditMediaEditor.m */,
+				9FFDD8EF21A41EFE003A9C5A /* QHVCEditMediaEditorConfig.h */,
+				9FFDD8F121A41EFE003A9C5A /* QHVCEditMediaEditorConfig.m */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		A513973C1EF13E4C00286B33 = {
+			isa = PBXGroup;
+			children = (
+				9FC55D1D21A25EEB00A053A8 /* QHVideoCloudEdit */,
+				A51397461EF13E4C00286B33 /* Products */,
+				BB5D95E41F04FFAB007EB994 /* Frameworks */,
+				1C322C6363F2DFBA82CF354B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A51397461EF13E4C00286B33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FC55D1C21A25EEB00A053A8 /* QHVideoCloudEdit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB5D95E41F04FFAB007EB994 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBF645B22057C55A007D8D69 /* libc++abi.tbd */,
+				BBF645B02057C54A007D8D69 /* libsqlite3.tbd */,
+				BBF645AE2057C539007D8D69 /* libxml2.tbd */,
+				A57F69F4204FBE4600D7FA82 /* MediaPlayer.framework */,
+				A57F69F2204FBE0B00D7FA82 /* CoreVideo.framework */,
+				A57F69F0204FBDE600D7FA82 /* AudioToolbox.framework */,
+				A57F69EE204FBDD400D7FA82 /* VideoToolbox.framework */,
+				A58324E01F39D86000A58C0C /* libc++.tbd */,
+				A5F464191F39A53E00B82456 /* CoreTelephony.framework */,
+				A5F464171F39A52500B82456 /* libresolv.tbd */,
+				BB8DC97E1F0A66DD004B63CC /* libz.tbd */,
+				5788B20B17DC5753E9E2E392 /* libPods-QHVideoCloudEdit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FC55D1B21A25EEB00A053A8 /* QHVideoCloudEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC55D2F21A25EED00A053A8 /* Build configuration list for PBXNativeTarget "QHVideoCloudEdit" */;
+			buildPhases = (
+				803962D1ACFA7561AB2DF40C /* [CP] Check Pods Manifest.lock */,
+				9FC55D1821A25EEB00A053A8 /* Sources */,
+				9FC55D1921A25EEB00A053A8 /* Frameworks */,
+				9FC55D1A21A25EEB00A053A8 /* Resources */,
+				9F10E73C21AC1D85004354C6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F10E72921AC1A36004354C6 /* PBXTargetDependency */,
+				9F10E73B21AC1D85004354C6 /* PBXTargetDependency */,
+			);
+			name = QHVideoCloudEdit;
+			productName = QHVideoCloudEdit;
+			productReference = 9FC55D1C21A25EEB00A053A8 /* QHVideoCloudEdit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A513973D1EF13E4C00286B33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yangkui;
+				TargetAttributes = {
+					9FC55D1B21A25EEB00A053A8 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A51397401EF13E4C00286B33 /* Build configuration list for PBXProject "QHVideoCloudEdit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A513973C1EF13E4C00286B33;
+			productRefGroup = A51397461EF13E4C00286B33 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9F10E71621AC1A04004354C6 /* Products */;
+					ProjectRef = 9F10E71521AC1A04004354C6 /* QHVCEditKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9FC55D1B21A25EEB00A053A8 /* QHVideoCloudEdit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9F10E71E21AC1A04004354C6 /* QHVCEditKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = QHVCEditKit.framework;
+			remoteRef = 9F10E71D21AC1A04004354C6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F93093021B7C585009B3C9A /* QHVCEditKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = QHVCEditKitTests.xctest;
+			remoteRef = 9F93092F21B7C585009B3C9A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FC55D1A21A25EEB00A053A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF7863621A2EE4D00DEB36F /* QHVCEditTailorFillCell.xib in Resources */,
+				9F10E69521AC0162004354C6 /* readme.txt in Resources */,
+				28394B9421B65E6200E2741E /* video1.MOV in Resources */,
+				9FF785D621A2EE4D00DEB36F /* QHVCEditStickerFunctionView.xib in Resources */,
+				9FF7863021A2EE4D00DEB36F /* QHVCEditTailorFormatView.xib in Resources */,
+				9FF785CC21A2EE4D00DEB36F /* sticker6.png in Resources */,
+				9FF785D221A2EE4D00DEB36F /* sticker4.png in Resources */,
+				9FC563AD21A2654B00A053A8 /* QHVCEditCollectionCell.xib in Resources */,
+				9FFDD7FD21A3EC10003A9C5A /* Filters in Resources */,
+				9FC563ED21A2654B00A053A8 /* Assets.xcassets in Resources */,
+				9FF785D421A2EE4D00DEB36F /* QHVCEditStickerView.xib in Resources */,
+				9FF7862C21A2EE4D00DEB36F /* QHVCEditTailorRateVC.xib in Resources */,
+				9FF785C821A2EE4D00DEB36F /* sticker3.png in Resources */,
+				9F93093121B7C585009B3C9A /* test_heic.HEIC in Resources */,
+				28394B9121B65E6200E2741E /* music.mp3 in Resources */,
+				9FC563B921A2654B00A053A8 /* QHVCEditVC.xib in Resources */,
+				28394B9021B65E6200E2741E /* hevc.mp4 in Resources */,
+				9F9308D321B6A873009B3C9A /* test_sticker.png in Resources */,
+				9F027CC621BD316600B65686 /* test_gif.gif in Resources */,
+				9FF7859E21A2EE4D00DEB36F /* QHVCEditSpeedView.xib in Resources */,
+				28394B9321B65E6200E2741E /* video2.mp4 in Resources */,
+				9FF785D021A2EE4D00DEB36F /* sticker5.png in Resources */,
+				9FF7860A21A2EE4D00DEB36F /* QHVCEditFilterView.xib in Resources */,
+				9FF7859421A2EE4D00DEB36F /* QHVCEditAlterSoundView.xib in Resources */,
+				9FF785E621A2EE4D00DEB36F /* QHVCEditSubtitleView.xib in Resources */,
+				9FF785C221A2EE4D00DEB36F /* Disco.mp3 in Resources */,
+				9FC563B221A2654B00A053A8 /* QHVCEditMainNavView.xib in Resources */,
+				9FF7861E21A2EE4D00DEB36F /* QHVCEditOverlaySpeedView.xib in Resources */,
+				9FC5639821A2654B00A053A8 /* QHVCEditSelectPhotoAlbumVC.xib in Resources */,
+				9FF785CA21A2EE4D00DEB36F /* sticker2.png in Resources */,
+				9FC563AB21A2654B00A053A8 /* QHVCEditFrameCell.xib in Resources */,
+				9FC0EB9A21AFCFBB006DFD76 /* QHVCEditMusicListView.xib in Resources */,
+				9FF7860C21A2EE4D00DEB36F /* QHVCEditFilterCell.xib in Resources */,
+				9F10E5BC21AB05BC004354C6 /* QHVCEditMusicView.xib in Resources */,
+				9FC563B021A2654B00A053A8 /* QHVCEditSetOutputParamsVC.xib in Resources */,
+				9F9080CC21B5427D00210535 /* QHVCEditTransitionList.plist in Resources */,
+				9FC5639B21A2654B00A053A8 /* QHVCEditPhotoSelectedCell.xib in Resources */,
+				9FFB9C6B21BA12F60023F9CF /* test_video3.MP4 in Resources */,
+				9FC563B521A2654B00A053A8 /* QHVCEditMainEditVC.xib in Resources */,
+				9FF7859021A2EE4D00DEB36F /* QHVCEditTransitionView.xib in Resources */,
+				9FC563B121A2654B00A053A8 /* QHVCEditMainFunctionCell.xib in Resources */,
+				28394B9221B65E6200E2741E /* pic1.jpg in Resources */,
+				9FC5633F21A2654B00A053A8 /* QHVCEditProducerVC.xib in Resources */,
+				9FF7859221A2EE4D00DEB36F /* QHVCEditTrackClipCell.xib in Resources */,
+				9FF7859A21A2EE4D00DEB36F /* QHVCEditFunctionList.plist in Resources */,
+				9FC563AC21A2654B00A053A8 /* QHVCEditFrameView.xib in Resources */,
+				9FF7861221A2EE4D00DEB36F /* QHVCEditOverlayFunctionsView.xib in Resources */,
+				9FF785DE21A2EE4D00DEB36F /* QHVCEditWatermarkView.xib in Resources */,
+				9F9308D121B6A73D009B3C9A /* test_lut.png in Resources */,
+				9FF785C021A2EE4D00DEB36F /* Forever.mp3 in Resources */,
+				9FF7863221A2EE4D00DEB36F /* QHVCEditTailorMainView.xib in Resources */,
+				9FF7861C21A2EE4D00DEB36F /* QHVCEditOverlayVolumeView.xib in Resources */,
+				9FC5639C21A2654B00A053A8 /* QHVCEditPhotoItemCell.xib in Resources */,
+				9FF785CE21A2EE4D00DEB36F /* sticker7.png in Resources */,
+				9FC5633E21A2654B00A053A8 /* QHVCEditReorderVC.xib in Resources */,
+				9FF785C621A2EE4D00DEB36F /* sticker1.png in Resources */,
+				28394B9521B65E6200E2741E /* a.webm in Resources */,
+				2818B2C921BD41830000CD26 /* pic_rgba.PNG in Resources */,
+				9FFB9C6C21BA12F60023F9CF /* test_pic2.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		803962D1ACFA7561AB2DF40C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QHVideoCloudEdit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FC55D1821A25EEB00A053A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC5634021A2654B00A053A8 /* QHVCEditProducerVC.m in Sources */,
+				9FF784D621A2ECFE00DEB36F /* md5.cpp in Sources */,
+				9FF785DC21A2EE4D00DEB36F /* QHVCEditWatermarkView.m in Sources */,
+				9FC563B621A2654B00A053A8 /* QHVCEditMainNavView.m in Sources */,
+				9FF784EE21A2ECFE00DEB36F /* UIView+Toast.m in Sources */,
+				9FF7860E21A2EE4D00DEB36F /* QHVCEditFilterView.m in Sources */,
+				9FC5621A21A2654B00A053A8 /* QHVCTabTableViewCell.m in Sources */,
+				9FC5629821A2654B00A053A8 /* QHVCEditPrefs.m in Sources */,
+				9FF7858C21A2EE4D00DEB36F /* QHVCEditTransitionView.m in Sources */,
+				9FF7858E21A2EE4D00DEB36F /* QHVCEditTrackClipCell.m in Sources */,
+				9FF785C421A2EE4D00DEB36F /* QHVCEditStickerView.m in Sources */,
+				9FF784F421A2ECFE00DEB36F /* QHVCPhotoItem.m in Sources */,
+				9FC5633D21A2654B00A053A8 /* QHVCEditTrackClipView.m in Sources */,
+				9FF784F021A2ECFE00DEB36F /* QHVCPhotoManager.m in Sources */,
+				9FC5639A21A2654B00A053A8 /* QHVCEditPhotoItemCell.m in Sources */,
+				9FC563BE21A2654B00A053A8 /* QHVCEditPlayerBaseVC.m in Sources */,
+				9FC563D421A2654B00A053A8 /* QHVCConfig.m in Sources */,
+				9F10E5B521AAF49B004354C6 /* QHVCEditSubtitleItemView.m in Sources */,
+				9FF784D821A2ECFE00DEB36F /* QHVCTool.m in Sources */,
+				9FF785D821A2EE4D00DEB36F /* QHVCEditStickerItemView.m in Sources */,
+				9FF7861021A2EE4D00DEB36F /* QHVCEditFilterCell.m in Sources */,
+				9FC5639921A2654B00A053A8 /* QHVCEditPhotoSelectedCell.m in Sources */,
+				9FF7862E21A2EE4D00DEB36F /* QHVCEditTailorFormatView.m in Sources */,
+				9FC563B721A2654B00A053A8 /* QHVCEditMainFunctionCell.m in Sources */,
+				9FC563A921A2654B00A053A8 /* QHVCEditFrameView.m in Sources */,
+				9FF7861421A2EE4D00DEB36F /* QHVCEditOverlayFunctionsView.m in Sources */,
+				9FF784F221A2ECFE00DEB36F /* QHVCSlowMotionVideoInfo.m in Sources */,
+				9FC5633C21A2654B00A053A8 /* QHVCEditReorderVC.m in Sources */,
+				9FF7859821A2EE4D00DEB36F /* QHVCEditAlterSoundView.m in Sources */,
+				9FF7863821A2EE4D00DEB36F /* QHVCEditTailorFillCell.m in Sources */,
+				9FC55D2E21A25EED00A053A8 /* main.m in Sources */,
+				9FF784EC21A2ECFE00DEB36F /* UIViewAdditions.m in Sources */,
+				9FF784DA21A2ECFE00DEB36F /* QHVCToast.m in Sources */,
+				9FF7862221A2EE4D00DEB36F /* QHVCEditOverlaySpeedView.m in Sources */,
+				9FF7862821A2EE4D00DEB36F /* QHVCEditOverlayItemView.m in Sources */,
+				9FC563BA21A2654B00A053A8 /* QHVCEditTrackClipItem.m in Sources */,
+				9FF7859C21A2EE4D00DEB36F /* QHVCEditSpeedView.m in Sources */,
+				9FC563B821A2654B00A053A8 /* QHVCEditVC.m in Sources */,
+				9FF7862621A2EE4D00DEB36F /* QHVCEditOverlayVolumeView.m in Sources */,
+				9FC563B321A2654B00A053A8 /* QHVCEditMainEditVC.m in Sources */,
+				9FC0EB9821AFCF93006DFD76 /* QHVCEditMusicListView.m in Sources */,
+				9FC5621921A2654B00A053A8 /* QHRootViewController.m in Sources */,
+				9FC5621721A2654B00A053A8 /* QHNavigationViewController.m in Sources */,
+				9FC563AA21A2654B00A053A8 /* QHVCEditFrameCell.m in Sources */,
+				9FFDD8F521A41EFE003A9C5A /* QHVCEditMediaEditorConfig.m in Sources */,
+				9FC563BB21A2654B00A053A8 /* QHVCEditFunctionBaseView.m in Sources */,
+				9FC5639D21A2654B00A053A8 /* QHVCEditSelectPhotoAlbumVC.m in Sources */,
+				9FC563BC21A2654B00A053A8 /* QHVCEditBaseVC.m in Sources */,
+				9FF785DA21A2EE4D00DEB36F /* QHVCEditStickerFunctionView.m in Sources */,
+				9FF7863421A2EE4D00DEB36F /* QHVCEditTailorRateVC.m in Sources */,
+				9FF785E421A2EE4D00DEB36F /* QHVCEditSubtitleView.m in Sources */,
+				9FC563BD21A2654B00A053A8 /* QHVCEditGestureView.m in Sources */,
+				9FC563AF21A2654B00A053A8 /* QHVCEditSetOutputParamsVC.m in Sources */,
+				9F10E5B921AB0539004354C6 /* QHVCEditMusicView.m in Sources */,
+				9FC563B421A2654B00A053A8 /* QHVCEditMainContentView.m in Sources */,
+				9FF7862A21A2EE4D00DEB36F /* QHVCEditTailorMainView.m in Sources */,
+				9FC563AE21A2654B00A053A8 /* QHVCEditCollectionCell.m in Sources */,
+				9FC5621821A2654B00A053A8 /* AppDelegate.m in Sources */,
+				9FFDD8F321A41EFE003A9C5A /* QHVCEditMediaEditor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F10E72921AC1A36004354C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QHVCEditKit;
+			targetProxy = 9F10E72821AC1A36004354C6 /* PBXContainerItemProxy */;
+		};
+		9F10E73B21AC1D85004354C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QHVCEditKit;
+			targetProxy = 9F10E73A21AC1D85004354C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FF7839721A2CC8F00DEB36F /* Info+Advanced.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FF7839821A2CC8F00DEB36F /* Base */,
+			);
+			name = "Info+Advanced.plist";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FC55D3021A25EED00A053A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D5B41490374F80EA66D053 /* Pods-QHVideoCloudEdit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9ZASTA83ZL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QHVideoCloudEdit/Vendor",
+					"\"$(SRCROOT)/../QHVCEffectKit\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
+				GCC_PREFIX_HEADER = QHVideoCloudEdit/QHVideoCloudPrefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"$(SRCROOT)/../QHVCEffectKit/QHVCEffectKit\"",
+					"\"$(SRCROOT)/../QHVCEditKit/QHVCEditKit\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/QHVideoCloudEdit/Base.lproj/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Masonry\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+					"-fprofile-instr-generate",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qhvideocloud.movie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = QHVideoCloudDemo;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FC55D3121A25EED00A053A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8875876D57D3FF41390A20 /* Pods-QHVideoCloudEdit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9ZASTA83ZL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QHVideoCloudEdit/Vendor",
+					"\"$(SRCROOT)/../QHVCEffectKit\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
+				GCC_PREFIX_HEADER = QHVideoCloudEdit/QHVideoCloudPrefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"$(SRCROOT)/../QHVCEffectKit/QHVCEffectKit\"",
+					"\"$(SRCROOT)/../QHVCEditKit/QHVCEditKit\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/QHVideoCloudEdit/Base.lproj/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Masonry\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+					"-fprofile-instr-generate",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qhvideocloud.movie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = QHVideoCloudDemo;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A513975A1EF13E4C00286B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A513975B1EF13E4C00286B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FC55D2F21A25EED00A053A8 /* Build configuration list for PBXNativeTarget "QHVideoCloudEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC55D3021A25EED00A053A8 /* Debug */,
+				9FC55D3121A25EED00A053A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51397401EF13E4C00286B33 /* Build configuration list for PBXProject "QHVideoCloudEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A513975A1EF13E4C00286B33 /* Debug */,
+				A513975B1EF13E4C00286B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A513973D1EF13E4C00286B33 /* Project object */;
+}
