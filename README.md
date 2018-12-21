@@ -125,5 +125,5 @@
 欢迎您与我们联系，QQ群：857572993
 
 ## License
-Petrel is Apache v2.0 licensed.
+Petrel is [Apache v2.0 licensed](./LICENSE).
 
